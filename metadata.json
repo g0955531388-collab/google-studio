@@ -1,0 +1,8 @@
+{
+  "name": "Remix Lifex-AI",
+  "description": "Lifex-AI Autonomous Medical \u0026 Clinical Intelligence System",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

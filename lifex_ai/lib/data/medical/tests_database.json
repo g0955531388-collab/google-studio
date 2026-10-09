@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "fileName": "tests_database.json",
+    "path": "lib/data/medical/tests_database.json",
+    "description": "قاعدة بيانات مرجعية للتحاليل والفحوص الطبية الشائعة وقيمها المرجعية العامة",
+    "disclaimer_ar": "القيم المرجعية هنا عامة وتقريبية وتختلف حسب المخبر والعمر والجنس والحالة الصحية. تفسير أي نتيجة تحليل يجب أن يتم من قبل طبيب مختص فقط.",
+    "disclaimer_en": "Reference ranges shown are general approximations and vary by lab, age, sex, and health status. Only a licensed physician should interpret test results.",
+    "schemaVersion": "2.0.0",
+    "lastUpdated": "2026-07-11"
+  },
+  "tests": [
+    {
+      "id": "t001",
+      "nameAr": "تعداد الدم الكامل",
+      "nameEn": "Complete Blood Count (CBC)",
+      "category": "hematology",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يختلف حسب المكوّن (كريات حمراء/بيضاء/صفائح) والعمر والجنس"
+    },
+    {
+      "id": "t002",
+      "nameAr": "سكر الدم الصائم",
+      "nameEn": "Fasting Blood Glucose",
+      "category": "endocrine",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "70-100 ملغ/دل تقريباً لدى غير المصابين بالسكري (يختلف حسب المخبر)"
+    },
+    {
+      "id": "t003",
+      "nameAr": "الدهون الثلاثية والكوليسترول",
+      "nameEn": "Lipid Profile",
+      "category": "cardiovascular",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يختلف حسب نوع الدهن (LDL/HDL/Triglycerides) والعوامل الفردية"
+    },
+    {
+      "id": "t004",
+      "nameAr": "وظائف الكلى",
+      "nameEn": "Renal Function Test",
+      "category": "renal",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يشمل الكرياتينين واليوريا، ويختلف حسب العمر والجنس وكتلة العضلات"
+    },
+    {
+      "id": "t005",
+      "nameAr": "وظائف الكبد",
+      "nameEn": "Liver Function Test",
+      "category": "hepatic",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يشمل إنزيمات الكبد ونسبة البيليروبين، ويختلف حسب المخبر"
+    },
+    {
+      "id": "t006",
+      "nameAr": "تحليل البول العام",
+      "nameEn": "Urinalysis",
+      "category": "renal",
+      "sampleType": "بول",
+      "approximateReferenceRangeAr": "يُقيَّم لونه وتركيزه ووجود بروتين/سكر/دم من عدمه"
+    },
+    {
+      "id": "t007",
+      "nameAr": "تعداد الدم الكامل مع الصيغة التفريقية",
+      "nameEn": "Complete Blood Count with Differential (CBC)",
+      "category": "hematology",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يختلف حسب المكوّن، مؤشر عام على العدوى وفقر الدم"
+    },
+    {
+      "id": "t008",
+      "nameAr": "البروتين المتفاعل C (مؤشر التهاب)",
+      "nameEn": "C-Reactive Protein (CRP)",
+      "category": "immunology",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "أقل من 10 ملغ/لتر تقريباً لدى غير المصابين بالتهاب حاد"
+    },
+    {
+      "id": "t009",
+      "nameAr": "سرعة ترسيب الدم (مؤشر التهاب مزمن)",
+      "nameEn": "Erythrocyte Sedimentation Rate (ESR)",
+      "category": "immunology",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يختلف حسب العمر والجنس، يرتفع في الالتهابات المزمنة"
+    },
+    {
+      "id": "t010",
+      "nameAr": "الهيموغلوبين السكري (متوسط السكر 3 أشهر)",
+      "nameEn": "Glycated Hemoglobin (HbA1c)",
+      "category": "endocrine",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "أقل من 5.7% لدى غير المصابين بالسكري تقريباً"
+    },
+    {
+      "id": "t011",
+      "nameAr": "الشوارد (صوديوم، بوتاسيوم، كلوريد)",
+      "nameEn": "Serum Electrolytes Panel",
+      "category": "renal",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يختلف حسب كل شارد على حدة، ويُقيَّم بمعرفة الطبيب"
+    },
+    {
+      "id": "t012",
+      "nameAr": "لوحة هرمونات الغدة الدرقية (TSH/T3/T4)",
+      "nameEn": "Thyroid Hormone Panel",
+      "category": "endocrine",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "يختلف حسب المخبر، يقيّم وظيفة الغدة الدرقية"
+    },
+    {
+      "id": "t013",
+      "nameAr": "لوحة المناعة الذاتية (ANA وغيرها)",
+      "nameEn": "Autoimmune Antibody Panel",
+      "category": "immunology",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "سلبي لدى غالبية غير المصابين بأمراض مناعية ذاتية"
+    },
+    {
+      "id": "t014",
+      "nameAr": "الواسمات الورمية (مؤشرات أولية استرشادية)",
+      "nameEn": "Tumor Marker Panel",
+      "category": "oncology",
+      "sampleType": "دم",
+      "approximateReferenceRangeAr": "لا تُستخدم للتشخيص بمفردها، استرشادية فقط بمتابعة الطبيب"
+    }
+  ]
+}

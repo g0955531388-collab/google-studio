@@ -1,0 +1,1301 @@
+{
+  "_meta": {
+    "fileName": "symptoms_database.json",
+    "path": "lib/data/medical/symptoms_database.json",
+    "description": "قاعدة بيانات مرجعية موسّعة للأعراض الشائعة (جسدية، نفسية، نسائية، أطفال، أسنان، حواس) وربطها بالأمراض المحتملة، للتوعية فقط",
+    "disclaimer_ar": "وجود عرض ضمن هذه القائمة لا يعني الإصابة بأي مرض مرتبط به. هذه أداة توعية أولية فقط، ولا تحل محل الفحص السريري من طبيب مختص.",
+    "disclaimer_en": "The presence of a symptom here does not imply diagnosis of any linked condition. This is an educational aid only, not a substitute for clinical evaluation.",
+    "schemaVersion": "3.0.0",
+    "lastUpdated": "2026-07-11"
+  },
+  "symptoms": [
+    {
+      "id": "s001",
+      "nameAr": "صداع",
+      "nameEn": "Headache",
+      "bodySystem": "neurological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s002",
+      "nameAr": "دوخة",
+      "nameEn": "Dizziness",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s003",
+      "nameAr": "عطش شديد ومستمر",
+      "nameEn": "Excessive thirst",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s004",
+      "nameAr": "تبول متكرر",
+      "nameEn": "Frequent urination",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s005",
+      "nameAr": "إرهاق غير مبرر",
+      "nameEn": "Unexplained fatigue",
+      "bodySystem": "general",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s006",
+      "nameAr": "ضيق تنفس",
+      "nameEn": "Shortness of breath",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s007",
+      "nameAr": "أزيز صدري (صفير عند التنفس)",
+      "nameEn": "Wheezing",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s008",
+      "nameAr": "ألم في الصدر",
+      "nameEn": "Chest pain",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s009",
+      "nameAr": "ألم منتشر إلى الذراع أو الفك",
+      "nameEn": "Radiating arm/jaw pain",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s010",
+      "nameAr": "تعرق بارد مفاجئ",
+      "nameEn": "Sudden cold sweat",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s011",
+      "nameAr": "شحوب الجلد",
+      "nameEn": "Pale skin",
+      "bodySystem": "hematology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s012",
+      "nameAr": "ضعف عام وتعب سريع",
+      "nameEn": "General weakness",
+      "bodySystem": "hematology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s013",
+      "nameAr": "خفقان القلب",
+      "nameEn": "Heart palpitations",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s014",
+      "nameAr": "طنين في الأذن",
+      "nameEn": "Tinnitus",
+      "bodySystem": "neurological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s015",
+      "nameAr": "تشوش مؤقت أو غباش في الرؤية",
+      "nameEn": "Blurred Vision",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s016",
+      "nameAr": "رعاف أو نزيف مفاجئ من الأنف",
+      "nameEn": "Epistaxis",
+      "bodySystem": "general",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s017",
+      "nameAr": "جوع مفرط ومستمر حتى بعد تناول الطعام",
+      "nameEn": "Polyphagia",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s018",
+      "nameAr": "فقدان وزن مفاجئ وغير مبرر برغم كثرة الأكل",
+      "nameEn": "Unexplained Weight Loss",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s019",
+      "nameAr": "تنميل ووخز كالإبر في أطراف اليدين والقدمين",
+      "nameEn": "Peripheral Neuropathy",
+      "bodySystem": "neurological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s020",
+      "nameAr": "أزيز أو صفير مسموع في الصدر أثناء الزفير",
+      "nameEn": "Wheezing",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s021",
+      "nameAr": "شعور بالاختناق وعدم القدرة على التقاط النفس بالكامل",
+      "nameEn": "Suffocation Feeling",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s022",
+      "nameAr": "غثيان حاد يصاحبه شعور بالدوار والموت الوشيك",
+      "nameEn": "Severe Nausea",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s023",
+      "nameAr": "ثقل شديد في حركات الجسم وعدم توازن وظيفي",
+      "nameEn": "Heavy Sensation",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s024",
+      "nameAr": "برودة شديدة ودائمة في أطراف اليدين والقدمين",
+      "nameEn": "Cold Extremities",
+      "bodySystem": "hematology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s025",
+      "nameAr": "رغبة غير طبيعية في أكل أشياء غريبة كالثلج أو التراب",
+      "nameEn": "Pica",
+      "bodySystem": "hematology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s026",
+      "nameAr": "شلل أو ضعف مفاجئ في جانب واحد من الوجه أو الجسم",
+      "nameEn": "Hemiparesis",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s027",
+      "nameAr": "صعوبة مفاجئة في الكلام أو ثقل اللسان وفهم العبارات",
+      "nameEn": "Dysphasia",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s028",
+      "nameAr": "فقدان مفاجئ للتوازن أو ترنح أثناء المشي الثابت",
+      "nameEn": "Ataxia",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s029",
+      "nameAr": "حرقة خلف القص أو حموضة لاذعة تصعد للحلق",
+      "nameEn": "Heartburn",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s030",
+      "nameAr": "ارتجاع طعام أو سائل حمضي مر إلى الفم تلقائياً",
+      "nameEn": "Acid Regurgitation",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s033",
+      "nameAr": "مغص وألم أسفل البطن والحوض (مصاحب للطمث)",
+      "nameEn": "Lower Abdominal Pain",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s034",
+      "nameAr": "انتفاخ وغازات كربوهيدراتية متراكمة في الأمعاء",
+      "nameEn": "Bloating",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s039",
+      "nameAr": "اضطرابات هرمونية مختلفة",
+      "nameEn": "Hormonal Imbalance",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s040",
+      "nameAr": "اضطرابات النوم أو الأرق",
+      "nameEn": "Insomnia",
+      "bodySystem": "general",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s042",
+      "nameAr": "ارتفاع درجة حرارة الجسم أو الحمى",
+      "nameEn": "Fever",
+      "bodySystem": "general",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s043",
+      "nameAr": "بكاء أو هياج غير معتاد",
+      "nameEn": "Irritability",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s048",
+      "nameAr": "بطء التئام الجروح والخدوش الجلدية",
+      "nameEn": "Delayed Wound Healing",
+      "bodySystem": "general",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s049",
+      "nameAr": "عسر هضم حاد وضغط في المعدة",
+      "nameEn": "Dyspepsia",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s050",
+      "nameAr": "ضعف التركيز وتشتت الانتباه الفكري",
+      "nameEn": "Poor Concentration",
+      "bodySystem": "neurological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s051",
+      "nameAr": "تقرحات متكررة ومؤلمة في زوايا الفم واللسان",
+      "nameEn": "Aphthous Ulcers",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s052",
+      "nameAr": "صداع مفاجئ شديد جداً يوصف بأنه الأسوأ في الحياة",
+      "nameEn": "Thunderclap Headache",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s053",
+      "nameAr": "انحراف زاوية الفم أو نزول اللعاب من طرف واحد",
+      "nameEn": "Facial Droop",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s054",
+      "nameAr": "صعوبة أو ألم أثناء البلع وشعور بكتلة في المريء",
+      "nameEn": "Dysphagia",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s055",
+      "nameAr": "سعال شرقي أو بحة في الصوت تزداد بعد الاستلقاء",
+      "nameEn": "Chronic Hoarseness",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s078",
+      "nameAr": "زيادة غير مبررة في الوزن وتمركز الدهون في البطن",
+      "nameEn": "Weight Gain",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s091",
+      "nameAr": "كآبة شديدة وحزن مستمر ونوبات بكاء مفاجئة دون سبب",
+      "nameEn": "Depressed Mood",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s092",
+      "nameAr": "شعور بالغربة التامة والانفصال عن المحيط أو الواقع المعاش",
+      "nameEn": "Derealization",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s093",
+      "nameAr": "شعور معنوي ساحق بانعدام القيمة واليأس من المستقبل",
+      "nameEn": "Worthlessness and Hopelessness",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s094",
+      "nameAr": "فقدان الشغف والاهتمام التام بالهوايات أو الأنشطة اليومية",
+      "nameEn": "Anhedonia",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s095",
+      "nameAr": "توتر دائم وقلق مستمر وصعوبة بالغة في تهدئة الأفكار",
+      "nameEn": "Generalized Anxiety",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s096",
+      "nameAr": "خوف فجائي غير مبرر وشعور باقتراب خطر داهم أو الموت",
+      "nameEn": "Panic Attacks",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s097",
+      "nameAr": "الشعور بأن المحيط ضبابي أو كأنه فيلم سينمائي غير حقيقي",
+      "nameEn": "Distorted Reality",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s098",
+      "nameAr": "الانفصال العاطفي عن الذات وكأن الشخص يراقب جسده من الخارج",
+      "nameEn": "Depersonalization",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s099",
+      "nameAr": "مغص وتقلصات بطنية حادة تزول مؤقتاً بعد التبرز",
+      "nameEn": "Abdominal Cramping",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s100",
+      "nameAr": "براز صلب ممسك جاف على شكل كرات صغيرة (إمساك)",
+      "nameEn": "Constipation Hard Stool",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s101",
+      "nameAr": "براز مائي إسهالي متكرر أو رخو جداً (إسهال)",
+      "nameEn": "Diarrhea Watery Stool",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s102",
+      "nameAr": "تناوب غير مستقر بين الإسهال الحاد والإمساك المزمن",
+      "nameEn": "Alternating Bowel Habits",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s103",
+      "nameAr": "غثيان صباحي مستمر أو رغبة مزعجة في التقيؤ",
+      "nameEn": "Chronic Nausea",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s104",
+      "nameAr": "فقدان تام للرغبة في الأكل أو نفور من رائحة الطعام",
+      "nameEn": "Loss of Appetite",
+      "bodySystem": "general",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s105",
+      "nameAr": "إقياء قذفي مفاجئ أو تقيؤ متكرر محتويات المعدة",
+      "nameEn": "Vomiting",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s106",
+      "nameAr": "تضيق حاد وتشنج بالقصبات التنفسية عند التعرض للمحسسات",
+      "nameEn": "Bronchospasm",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s107",
+      "nameAr": "عدم القدرة على التقاط النفس لدرجة عدم القدرة على إكمال جملة",
+      "nameEn": "Severe Breathlessness",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s108",
+      "nameAr": "اضطرابات هضمية عصبية المنشأ (مغص القلق والتوتر)",
+      "nameEn": "Neurogenic Gastrointestinal Distress",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s109",
+      "nameAr": "بول داكن أو غامق بلون الشاي أو عطري الرائحة",
+      "nameEn": "Dark Urine",
+      "bodySystem": "renal_urinary",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s110",
+      "nameAr": "حرقان شديد كالنار ووخز أثناء خروج البول في المجرى",
+      "nameEn": "Dysuria Burning",
+      "bodySystem": "renal_urinary",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s111",
+      "nameAr": "بول عكر غير شفاف ذو رائحة نفاذة أو كريهة جداً",
+      "nameEn": "Cloudy Foul Smelling Urine",
+      "bodySystem": "renal_urinary",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s112",
+      "nameAr": "بول سكري رغوي كثيف ومستمر في المرحاض",
+      "nameEn": "Foamy Urine",
+      "bodySystem": "renal_urinary",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s113",
+      "nameAr": "التهاب واحمرار شديد في بياض العينين والملتحمة",
+      "nameEn": "Eye Redness",
+      "bodySystem": "ophthalmologic",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s114",
+      "nameAr": "حرقة ووخز مزعج كوجود رمل داخل ملتحمة العين",
+      "nameEn": "Eye Burning sensation",
+      "bodySystem": "ophthalmologic",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s115",
+      "nameAr": "دموع غزيرة مستمرة وسيلان دمعي غير مبرر بكاءً",
+      "nameEn": "Epiphora Watery Eyes",
+      "bodySystem": "ophthalmologic",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s116",
+      "nameAr": "إفرازات قيحية صفراء أو مخاطية سميكة تلتصق بالأهداب صباحاً",
+      "nameEn": "Purulent Eye Discharge",
+      "bodySystem": "ophthalmologic",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s122",
+      "nameAr": "خمول معنوي ونفسي وتراجع تام للقدرة الإنتاجية",
+      "nameEn": "Mental Lethargy",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s123",
+      "nameAr": "سخونة وهبّات حرارية فجائية تتركز في الوجه والصدر",
+      "nameEn": "Hot Flashes Sensation",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s124",
+      "nameAr": "قشعريرة ورعشة مع شعور بالبرودة الشديدة بالأطراف والجسم",
+      "nameEn": "Chills and Shivering",
+      "bodySystem": "general",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s125",
+      "nameAr": "آلام عضلية عصبية متفرقة متنقلة في أنحاء الجسد والأعصاب",
+      "nameEn": "Fibromyalgia Neuralgia",
+      "bodySystem": "neurological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s126",
+      "nameAr": "ألم عميق أسفل الظهر ويمتد إلى الحوض والعجان",
+      "nameEn": "Low Back and Pelvic Pain",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s127",
+      "nameAr": "مغص حوضي حاد وتشنجات رحمية عنيفة (مغص أسفل البطن)",
+      "nameEn": "Pelvic Cramping",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s128",
+      "nameAr": "ألم ضاغط وثقل أسفل الفخذين والظهر مصاحب لنزول الطمث",
+      "nameEn": "Radiating Menstrual Pain",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s129",
+      "nameAr": "غثيان وصداع شقيقي عنيف متزامن مع موعد الدورة الشهرية",
+      "nameEn": "Catamenial Migraine",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s130",
+      "nameAr": "غياب أو تباعد فترات الدورة الشهرية لأشهر طويلة دون حمل",
+      "nameEn": "Oligomenorrhea",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s131",
+      "nameAr": "ظهور شعر خشن داكن في الوجه والصدر والبطن (شعرانية)",
+      "nameEn": "Hirsutism",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s132",
+      "nameAr": "ظهور حب شباب كيسي عنيد ومقاوم في الذقن والرقبة هرمونياً",
+      "nameEn": "Cystic Acne",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s133",
+      "nameAr": "نزيف طمثي غزير جداً يحتوي على قطع وتخثرات دم كبيرة",
+      "nameEn": "Menorrhagia Blood Clots",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s134",
+      "nameAr": "ألم حاد أو حرقان أثناء الجماع أو الفحص الحوضي النسائي",
+      "nameEn": "Dyspareunia",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s135",
+      "nameAr": "هبات ساخنة فجائية شديدة مع احمرار الوجه والرقبة",
+      "nameEn": "Perimenopausal Hot Flashes",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s136",
+      "nameAr": "تعرق ليلي غزير يبلل الملابس ويعيق النوم الطبيعي تماماً",
+      "nameEn": "Night Sweats",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s137",
+      "nameAr": "جفاف مهبلي حاد مسبب للحكة والحرقة والألم الموضعي",
+      "nameEn": "Vaginal Atrophy",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s138",
+      "nameAr": "تنقيط دموي أو نزف مهبلي خفيف (استحاضة) بين فترات الدورات",
+      "nameEn": "Intermenstrual Spotting",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s139",
+      "nameAr": "ارتفاع طفيف ومستمر في درجة حرارة الجسم الأساسية بنصف درجة",
+      "nameEn": "Elevated Basal Body Temperature",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s140",
+      "nameAr": "إفرازات مخاطية عنقية شفافة ومطاطية جداً تشبه زلال البيض",
+      "nameEn": "Cervical Mucus Change",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s141",
+      "nameAr": "ألم وخز خفيف مفاجئ في أحد جانبي الحوض لعدة ساعات",
+      "nameEn": "Mittelschmerz Ovulation Pain",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s142",
+      "nameAr": "زيادة مؤقتة وواضحة في الرغبة العاطفية والنشاط المعنوي",
+      "nameEn": "Increased Libido Phase",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s143",
+      "nameAr": "دم أحمر قانٍ ذكي يغطي البراز أو يظهر على ورق التجفيف",
+      "nameEn": "Bright Red Rectal Bleeding",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s144",
+      "nameAr": "كتلة أو بروز لحمي وريدي مؤلم عند فتحة الشرج يزداد بالضغط",
+      "nameEn": "Anal Prolapse Mass",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s145",
+      "nameAr": "حكة شرجية مزمنة ومزعجة مصحوبة برطوبة وإفرازات موضعية",
+      "nameEn": "Pruritus Ani",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s146",
+      "nameAr": "نزح مستمر لقيح أو مفرزات صديدية شرجية ذات رائحة كريهة",
+      "nameEn": "Anal Purulent Discharge",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s147",
+      "nameAr": "خروج غازات أو مفرزات برازية عبر المهبل بشكل غير طبيعي",
+      "nameEn": "Fecal Vaginal Discharge",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s148",
+      "nameAr": "ألم نابض مستمر حاد في منطقة الحوض والعجان يزداد عند الجلوس",
+      "nameEn": "Perineal Throbbing Pain",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s149",
+      "nameAr": "إفرازات مهبلية بيضاء سميكة متجبنة متكتلة وبدون رائحة نفاذة",
+      "nameEn": "Thick White Vaginal Discharge",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s150",
+      "nameAr": "حكة شديدة وحرقان واحمرار حاد في المهبل والشفرين",
+      "nameEn": "Vaginal and Vulvar Pruritus",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s151",
+      "nameAr": "حرقة وألم أثناء التبول في منطقة الفرج",
+      "nameEn": "Vulvar Dysuria",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s152",
+      "nameAr": "كتلة أو سماكة غير طبيعية في الثدي",
+      "nameEn": "Breast Lump",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s153",
+      "nameAr": "مفرزات من حلمة الثدي في غير الرضاعة",
+      "nameEn": "Nipple Discharge",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s154",
+      "nameAr": "تغير في شكل الحلمة كغورها للداخل أو تقشر وانكماش جلد الثدي",
+      "nameEn": "Nipple Retraction",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s155",
+      "nameAr": "ألم وتورم واحمرار وسخونة موضعية شديدة في أحد الثديين",
+      "nameEn": "Breast Mastitis Pain",
+      "bodySystem": "gynecological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s156",
+      "nameAr": "قلة شديدة أو انعدام تام في الرغبة والدوافع الحميمية",
+      "nameEn": "Hypoactive Sexual Desire",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s157",
+      "nameAr": "إفراط جنسي قهري (فرط الرغبة الحميمية)",
+      "nameEn": "Hypersexuality Distress",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s158",
+      "nameAr": "بكاء وصراخ حاد ومستمر عند الرضيع مع شد أو فرك الأذن بقوة",
+      "nameEn": "Ear Pulling in Infants",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s159",
+      "nameAr": "إفرازات من الأذن الخارجية عند الطفل",
+      "nameEn": "Otorrhea Child",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s160",
+      "nameAr": "هياج شديد ورفض تام للرضاعة أو تناول الأكل أو النوم الهادئ",
+      "nameEn": "Pediatric Irritability",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s161",
+      "nameAr": "جفاف الفم وغياب الدموع عند البكاء (رضّع)",
+      "nameEn": "Absence of Tears and Dry Mouth",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s162",
+      "nameAr": "غور العينين وانخفاض يافوخ الرأس (رضّع)",
+      "nameEn": "Sunken Eyes and Fontanelle",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s163",
+      "nameAr": "خمول تام أو كسل ونعاس غير طبيعي وصعوبة بالغة في إيقاظ الطفل",
+      "nameEn": "Pediatric Lethargy",
+      "bodySystem": "pediatric",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s164",
+      "nameAr": "فقدان الشم",
+      "nameEn": "Anosmia",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s165",
+      "nameAr": "نقص حاسة الشم",
+      "nameEn": "Hyposmia",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s166",
+      "nameAr": "فرط حاسة الشم",
+      "nameEn": "Hyperosmia",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s167",
+      "nameAr": "فقدان التذوق",
+      "nameEn": "Ageusia",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s168",
+      "nameAr": "نقص التذوق",
+      "nameEn": "Hypogeusia",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s169",
+      "nameAr": "تشوه التذوق",
+      "nameEn": "Dysgeusia",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s170",
+      "nameAr": "طعم معدني في الفم",
+      "nameEn": "Metallic Taste",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s171",
+      "nameAr": "رائحة كريهة من الفم",
+      "nameEn": "Halitosis",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s172",
+      "nameAr": "جفاف الفم",
+      "nameEn": "Xerostomia",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s173",
+      "nameAr": "سيلان اللعاب",
+      "nameEn": "Sialorrhea",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s174",
+      "nameAr": "صعوبة المضغ",
+      "nameEn": "Difficulty Chewing",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s175",
+      "nameAr": "عض اللسان المتكرر",
+      "nameEn": "Repeated Tongue Biting",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s176",
+      "nameAr": "تورم اللسان",
+      "nameEn": "Tongue Swelling",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s177",
+      "nameAr": "حرقان اللسان",
+      "nameEn": "Burning Tongue",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s178",
+      "nameAr": "تغير لون اللسان",
+      "nameEn": "Tongue Discoloration",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s179",
+      "nameAr": "تقرحات الفم",
+      "nameEn": "Oral Ulcers",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s180",
+      "nameAr": "نزيف اللثة",
+      "nameEn": "Bleeding Gums",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s181",
+      "nameAr": "تورم اللثة",
+      "nameEn": "Swollen Gums",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s182",
+      "nameAr": "تخلخل الأسنان",
+      "nameEn": "Loose Teeth",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s183",
+      "nameAr": "ألم الأسنان",
+      "nameEn": "Tooth Pain",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s184",
+      "nameAr": "صرير الأسنان",
+      "nameEn": "Bruxism",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s185",
+      "nameAr": "حساسية الأسنان",
+      "nameEn": "Tooth Sensitivity",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s186",
+      "nameAr": "بحة الصوت",
+      "nameEn": "Hoarseness",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s187",
+      "nameAr": "فقدان الصوت",
+      "nameEn": "Loss of Voice",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s188",
+      "nameAr": "تغير نبرة الصوت",
+      "nameEn": "Voice Change",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s189",
+      "nameAr": "الشخير",
+      "nameEn": "Snoring",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s190",
+      "nameAr": "انقطاع التنفس أثناء النوم",
+      "nameEn": "Sleep Apnea",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s191",
+      "nameAr": "الاختناق أثناء النوم",
+      "nameEn": "Choking During Sleep",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s192",
+      "nameAr": "كثرة التثاؤب",
+      "nameEn": "Excessive Yawning",
+      "bodySystem": "general",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s193",
+      "nameAr": "صرير الفك",
+      "nameEn": "Jaw Clicking",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s194",
+      "nameAr": "ألم الفك",
+      "nameEn": "Jaw Pain",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s195",
+      "nameAr": "تيبس الفك",
+      "nameEn": "Jaw Stiffness",
+      "bodySystem": "dentistry",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s196",
+      "nameAr": "إفرازات من الأذن",
+      "nameEn": "Ear Discharge",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s197",
+      "nameAr": "طنين نابض",
+      "nameEn": "Pulsatile Tinnitus",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s198",
+      "nameAr": "ضغط في الأذن",
+      "nameEn": "Ear Pressure",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s199",
+      "nameAr": "انسداد الأذن",
+      "nameEn": "Ear Fullness",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s200",
+      "nameAr": "فرط الحساسية للأصوات",
+      "nameEn": "Hyperacusis",
+      "bodySystem": "otolaryngology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s201",
+      "nameAr": "رعشة أو ارتعاش في اليد وقت الراحة",
+      "nameEn": "Resting Tremor",
+      "bodySystem": "neurological",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s202",
+      "nameAr": "فقدان تدريجي للذاكرة قصيرة المدى",
+      "nameEn": "Progressive Memory Loss",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s203",
+      "nameAr": "تيبس وتصلب عام في العضلات",
+      "nameEn": "Generalized Muscle Rigidity",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s204",
+      "nameAr": "نوبة تشنجية مفاجئة (صرع)",
+      "nameEn": "Seizure Convulsion",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s205",
+      "nameAr": "فقدان مفاجئ للوعي أو الإغماء",
+      "nameEn": "Loss of Consciousness",
+      "bodySystem": "neurological",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s206",
+      "nameAr": "ألم وتيبس صباحي في المفاصل",
+      "nameEn": "Morning Joint Stiffness",
+      "bodySystem": "rheumatology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s207",
+      "nameAr": "تورم واحمرار في مفصل أو أكثر",
+      "nameEn": "Joint Swelling",
+      "bodySystem": "rheumatology",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s208",
+      "nameAr": "جفاف شديد في العينين والفم",
+      "nameEn": "Dry Eyes and Dry Mouth",
+      "bodySystem": "rheumatology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s209",
+      "nameAr": "بقع جلدية حمراء مغطاة بقشور فضية",
+      "nameEn": "Silvery Scaled Skin Patches",
+      "bodySystem": "dermatology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s210",
+      "nameAr": "بقع جلدية حمراء مثيرة للحكة",
+      "nameEn": "Itchy Red Skin Patches",
+      "bodySystem": "dermatology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s211",
+      "nameAr": "بقع جلدية فاقدة للون (نقص تصبغ)",
+      "nameEn": "Skin Depigmentation Patches",
+      "bodySystem": "dermatology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s212",
+      "nameAr": "طفح جلدي مؤلم بحويصلات على مسار عصبي واحد",
+      "nameEn": "Painful Dermatomal Vesicular Rash",
+      "bodySystem": "dermatology",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s213",
+      "nameAr": "بثور وحبوب التهابية في الوجه والظهر",
+      "nameEn": "Inflammatory Facial Acne",
+      "bodySystem": "dermatology",
+      "urgencyDefault": "low"
+    },
+    {
+      "id": "s214",
+      "nameAr": "حمى مرتفعة مع قشعريرة شديدة وتسارع نبض",
+      "nameEn": "High Fever with Rigors and Tachycardia",
+      "bodySystem": "infectious",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s215",
+      "nameAr": "تشوش ذهني مفاجئ مصحوب بحمى",
+      "nameEn": "Acute Confusion with Fever",
+      "bodySystem": "infectious",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s216",
+      "nameAr": "تيبس وألم شديد في الرقبة مع الحمى",
+      "nameEn": "Neck Stiffness with Fever",
+      "bodySystem": "infectious",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s217",
+      "nameAr": "حساسية شديدة من الضوء",
+      "nameEn": "Photophobia",
+      "bodySystem": "neurological",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s218",
+      "nameAr": "سعال مزمن مصحوب بدم",
+      "nameEn": "Hemoptysis (Coughing Blood)",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s219",
+      "nameAr": "كتلة أو تورم غير مبرر في أي منطقة بالجسم",
+      "nameEn": "Unexplained Body Lump or Mass",
+      "bodySystem": "general",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s220",
+      "nameAr": "اصفرار الجلد وبياض العينين (يرقان)",
+      "nameEn": "Jaundice",
+      "bodySystem": "hepatic",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s221",
+      "nameAr": "انتفاخ وتجمع سوائل في البطن",
+      "nameEn": "Abdominal Distension (Ascites)",
+      "bodySystem": "hepatic",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s222",
+      "nameAr": "إسهال مزمن مصحوب بدم أو مخاط",
+      "nameEn": "Chronic Bloody Mucoid Diarrhea",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s223",
+      "nameAr": "سوء امتصاص غذائي مع فقدان وزن مزمن",
+      "nameEn": "Malabsorption with Chronic Weight Loss",
+      "bodySystem": "gastrointestinal",
+      "urgencyDefault": "medium"
+    },
+    {
+      "id": "s224",
+      "nameAr": "خفقان قلب شديد مع هبوط ضغط الدم",
+      "nameEn": "Tachycardia with Hypotension",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s225",
+      "nameAr": "تورم مفاجئ بالوجه أو الشفتين أو الحلق",
+      "nameEn": "Sudden Facial/Lip/Throat Swelling",
+      "bodySystem": "immunologic",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s226",
+      "nameAr": "صعوبة تنفس حادة بعد التعرض لمادة مسببة للحساسية",
+      "nameEn": "Acute Breathing Difficulty After Allergen Exposure",
+      "bodySystem": "immunologic",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s227",
+      "nameAr": "ارتجاف وتعرق وارتباك مع انخفاض حاد بسكر الدم",
+      "nameEn": "Shaking Sweating Confusion (Severe Hypoglycemia)",
+      "bodySystem": "endocrine",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s228",
+      "nameAr": "صداع شديد مفاجئ مع ضغط دم مرتفع جداً واضطراب رؤية",
+      "nameEn": "Severe Headache with Extreme Hypertension and Vision Change",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s229",
+      "nameAr": "نزيف حاد مستمر لا يتوقف بالضغط المباشر",
+      "nameEn": "Uncontrolled Severe Bleeding",
+      "bodySystem": "general",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s230",
+      "nameAr": "أفكار إيذاء النفس أو التفكير في الانتحار",
+      "nameEn": "Suicidal Ideation or Self-Harm Thoughts",
+      "bodySystem": "psychiatric",
+      "urgencyDefault": "critical"
+    },
+    {
+      "id": "s231",
+      "nameAr": "ضعف عضلي تدريجي في طرف واحد أو أكثر",
+      "nameEn": "Progressive Limb Muscle Weakness",
+      "bodySystem": "neurological",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s232",
+      "nameAr": "ازدواج الرؤية أو ضعف مفاجئ فيها",
+      "nameEn": "Double Vision or Sudden Visual Weakness",
+      "bodySystem": "neurological",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s233",
+      "nameAr": "ألم صدري ينتشر مع سعال وبلغم صدئ اللون",
+      "nameEn": "Chest Pain with Rust Colored Sputum",
+      "bodySystem": "respiratory",
+      "urgencyDefault": "high"
+    },
+    {
+      "id": "s234",
+      "nameAr": "تورم في الساقين والكاحلين",
+      "nameEn": "Leg and Ankle Swelling (Edema)",
+      "bodySystem": "cardiovascular",
+      "urgencyDefault": "medium"
+    }
+  ]
+}

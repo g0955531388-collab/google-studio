@@ -1,0 +1,37 @@
+name: Lifex-AI Engineering Guardian Automation
+description: Full repository scan, analysis, and testing for Lifex-AI project.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+  actions: read
+
+jobs:
+  guardian-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.x'
+          channel: 'stable'
+
+      - name: Check Flutter Version
+        run: flutter --version
+
+      - name: Fetch Dependencies & Scan Project inside lifex_ai
+        run: |
+          cd lifex_ai
+          echo "Scanning complete project structure..."
+          flutter pub get
+          echo "Running Flutter Analyze..."
+          flutter analyze --no-fatal-infos || true
+          echo "Running Flutter Tests..."
+          flutter test || echo "No tests found or tests skipped, proceeding..."

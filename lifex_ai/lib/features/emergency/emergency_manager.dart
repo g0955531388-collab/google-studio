@@ -1,0 +1,118 @@
+/// =============================================================
+/// Lifex-AI — الطوارئ
+/// الملف: emergency_manager.dart
+/// المسار: lib/features/emergency/emergency_manager.dart
+/// الوصف: المدير المركزي لحالة الطوارئ الكاملة — من إطلاقها حتى حلها،
+/// وينسّق بين تقييم الخطر وإرسال الاستغاثة.
+/// =============================================================
+
+import '../../core/health_event_manager.dart';
+import '../accessibility/multi_sensory_alert_manager.dart';
+import 'emergency_message_manager.dart';
+import 'risk_level_engine.dart';
+
+enum EmergencyStatus { none, active, resolved }
+
+class EmergencyCase {
+  final String caseId;
+  final String profileId;
+  final DateTime triggeredAt;
+  EmergencyStatus status;
+  final String triggerReasonAr;
+  DateTime? resolvedAt;
+
+  EmergencyCase({
+    required this.caseId,
+    required this.profileId,
+    required this.triggerReasonAr,
+    this.status = EmergencyStatus.active,
+    DateTime? triggeredAt,
+    this.resolvedAt,
+  }) : triggeredAt = triggeredAt ?? DateTime.now();
+}
+
+/// المدير المركزي لحالات الطوارئ.
+class EmergencyManager {
+  EmergencyManager({
+    required this.riskLevelEngine,
+    required this.messageManager,
+    this.multiSensoryAlertManager,
+  });
+
+  final RiskLevelEngine riskLevelEngine;
+  final EmergencyMessageManager messageManager;
+
+  /// اختياري عمداً (nullable) حتى لا يفشل النظام كاملاً لو لم يُهيَّأ؛
+  /// لكن لو أُهيِّئ، كل تنبيه طوارئ يصل إلزامياً عبر الاهتزاز والومضة
+  /// البصرية بالتوازي مع الرسالة الصوتية/النصية العادية — لضمان وصول
+  /// التنبيه للمستخدمين الصم أو ضعاف السمع أيضاً.
+  final MultiSensoryAlertManager? multiSensoryAlertManager;
+
+  final Map<String, EmergencyCase> _activeCases = {};
+  int _caseCounter = 0;
+
+  /// إطلاق حالة طوارئ جديدة — نقطة الدخول الوحيدة المعتمدة لإنشاء حالة
+  /// طوارئ من أي وحدة أخرى في النظام.
+  EmergencyCase triggerEmergency({
+    required String profileId,
+    required String reasonAr,
+    Map<String, dynamic>? context,
+  }) {
+    _caseCounter++;
+    final caseId = 'EMG-${DateTime.now().millisecondsSinceEpoch}-$_caseCounter';
+
+    final riskAssessment = riskLevelEngine.assess(context ?? {});
+
+    final emergencyCase = EmergencyCase(
+      caseId: caseId,
+      profileId: profileId,
+      triggerReasonAr: reasonAr,
+    );
+    _activeCases[caseId] = emergencyCase;
+
+    messageManager.dispatchEmergencyMessage(
+      profileId: profileId,
+      caseId: caseId,
+      riskLevel: riskAssessment.level,
+      reasonAr: reasonAr,
+    );
+
+    // تنبيه حسي فوري على جهاز المستخدم نفسه (اهتزاز + ومضة)، بغض النظر
+    // عن قدرته على سماع أي رد صوتي من التطبيق.
+    multiSensoryAlertManager?.triggerAlert(AlertSeverityForSenses.critical);
+
+    HealthEventManager.instance.emitQuick(
+      HealthEventType.emergencyTriggered,
+      sourceModule: 'emergency_manager',
+      profileId: profileId,
+      data: {'caseId': caseId, 'riskLevel': riskAssessment.level},
+    );
+
+    return emergencyCase;
+  }
+
+  /// إغلاق حالة طوارئ بعد التأكد من استقرار الوضع (يتم يدوياً من قِبل
+  /// المستخدم أو جهة ثقة، وليس تلقائياً أبداً).
+  bool resolveEmergency(String caseId) {
+    final emergencyCase = _activeCases[caseId];
+    if (emergencyCase == null || emergencyCase.status != EmergencyStatus.active) {
+      return false;
+    }
+    emergencyCase.status = EmergencyStatus.resolved;
+    emergencyCase.resolvedAt = DateTime.now();
+
+    HealthEventManager.instance.emitQuick(
+      HealthEventType.emergencyResolved,
+      sourceModule: 'emergency_manager',
+      profileId: emergencyCase.profileId,
+      data: {'caseId': caseId},
+    );
+    return true;
+  }
+
+  List<EmergencyCase> activeCasesFor(String profileId) {
+    return _activeCases.values
+        .where((c) => c.profileId == profileId && c.status == EmergencyStatus.active)
+        .toList();
+  }
+}

@@ -1,0 +1,44 @@
+name: Claude AI Lead Developer
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  claude-lead:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run Claude Assistant Script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_COMMENT: ${{ github.event.comment.body }}
+          REPOSITORY: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          python -c '
+          import os
+          import requests
+
+          api_key = os.environ.get("ANTHROPIC_API_KEY")
+          comment = os.environ.get("ISSUE_COMMENT")
+          
+          print(f"Received command from issue: {comment}")
+          print("Claude AI Lead Developer is ready to process your request for the repository.")
+          '

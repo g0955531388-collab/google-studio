@@ -1,0 +1,167 @@
+/// =============================================================
+/// Lifex-AI — الهوية الصحية والملفات الشخصية
+/// الملف: health_identity_manager.dart
+/// المسار: lib/features/profile/health_identity_manager.dart
+/// الوصف: إدارة "الهوية الصحية" لكل مستخدم — الفرق بين هذا الملف وملف
+/// health_profile.dart أن هذا يتعامل مع معرّفات الهوية (Lifex-ID)،
+/// التحقق من الهوية الحقيقية، وربطها بالحساب، وليس البيانات الطبية نفسها.
+/// =============================================================
+
+import 'dart:math';
+
+import '../../core/error_handler.dart';
+
+/// مستوى التحقق من هوية المستخدم.
+enum IdentityVerificationLevel {
+  unverified, // لم يُتحقق من الهوية بعد
+  phoneVerified, // تم التحقق عبر رقم الهاتف فقط
+  documentVerified, // تم التحقق عبر وثيقة رسمية (بطاقة/جواز)
+  fullyVerified, // تحقق كامل (هاتف + وثيقة + مطابقة بيانات)
+}
+
+/// الهوية الصحية الفريدة لكل مستخدم داخل منظومة Lifex-AI.
+///
+/// كل ملف صحي (HealthProfile) يجب أن يملك هوية واحدة مرتبطة به عبر
+/// [lifexId]. هذا المعرّف هو ما يُستخدم في التراسل والتبرعات بدلاً من
+/// كشف رقم الهاتف أو الاسم الحقيقي مباشرة، حفاظاً على الخصوصية.
+class HealthIdentity {
+  final String lifexId;
+  final String linkedProfileId;
+  String? phoneNumber;
+  IdentityVerificationLevel verificationLevel;
+  DateTime createdAt;
+  DateTime? verifiedAt;
+
+  HealthIdentity({
+    required this.lifexId,
+    required this.linkedProfileId,
+    this.phoneNumber,
+    this.verificationLevel = IdentityVerificationLevel.unverified,
+    DateTime? createdAt,
+    this.verifiedAt,
+  }) : createdAt = createdAt ?? DateTime.now();
+
+  Map<String, dynamic> toJson() => {
+        'lifexId': lifexId,
+        'linkedProfileId': linkedProfileId,
+        'phoneNumber': phoneNumber,
+        'verificationLevel': verificationLevel.name,
+        'createdAt': createdAt.toIso8601String(),
+        'verifiedAt': verifiedAt?.toIso8601String(),
+      };
+
+  factory HealthIdentity.fromJson(Map<String, dynamic> json) => HealthIdentity(
+        lifexId: json['lifexId'] as String,
+        linkedProfileId: json['linkedProfileId'] as String,
+        phoneNumber: json['phoneNumber'] as String?,
+        verificationLevel: IdentityVerificationLevel.values.firstWhere(
+          (e) => e.name == json['verificationLevel'],
+          orElse: () => IdentityVerificationLevel.unverified,
+        ),
+        createdAt: DateTime.parse(json['createdAt'] as String),
+        verifiedAt: json['verifiedAt'] != null
+            ? DateTime.parse(json['verifiedAt'] as String)
+            : null,
+      );
+}
+
+/// المدير المسؤول عن إنشاء والتحقق من الهويات الصحية (Lifex-ID).
+///
+/// ملاحظة: التحقق الفعلي عبر خادم/OTP/OCR للوثائق سيُبنى لاحقاً كطبقة
+/// شبكة منفصلة تستدعي هذا المدير. هنا نوفر البنية والمنطق المحلي فقط.
+class HealthIdentityManager {
+  HealthIdentityManager._internal();
+  static final HealthIdentityManager instance =
+      HealthIdentityManager._internal();
+
+  final Map<String, HealthIdentity> _identitiesByLifexId = {};
+  final Map<String, String> _lifexIdByProfileId = {};
+
+  static const String _idPrefix = 'LFX';
+  final Random _random = Random.secure();
+
+  /// إنشاء هوية صحية جديدة وربطها بملف صحي.
+  HealthIdentity createIdentity({
+    required String profileId,
+    String? phoneNumber,
+  }) {
+    if (_lifexIdByProfileId.containsKey(profileId)) {
+      final existingId = _lifexIdByProfileId[profileId]!;
+      return _identitiesByLifexId[existingId]!;
+    }
+
+    final lifexId = _generateUniqueLifexId();
+    final identity = HealthIdentity(
+      lifexId: lifexId,
+      linkedProfileId: profileId,
+      phoneNumber: phoneNumber,
+      verificationLevel: phoneNumber != null
+          ? IdentityVerificationLevel.phoneVerified
+          : IdentityVerificationLevel.unverified,
+    );
+
+    _identitiesByLifexId[lifexId] = identity;
+    _lifexIdByProfileId[profileId] = lifexId;
+
+    return identity;
+  }
+
+  /// توليد معرّف Lifex-ID فريد بصيغة LFX-XXXXXX.
+  String _generateUniqueLifexId() {
+    String candidate;
+    do {
+      final suffix = List.generate(6, (_) => _random.nextInt(10)).join();
+      candidate = '$_idPrefix-$suffix';
+    } while (_identitiesByLifexId.containsKey(candidate));
+    return candidate;
+  }
+
+  /// استرجاع الهوية عبر معرّف Lifex-ID.
+  HealthIdentity? getByLifexId(String lifexId) =>
+      _identitiesByLifexId[lifexId];
+
+  /// استرجاع الهوية عبر معرّف الملف الصحي المرتبط.
+  HealthIdentity? getByProfileId(String profileId) {
+    final lifexId = _lifexIdByProfileId[profileId];
+    if (lifexId == null) return null;
+    return _identitiesByLifexId[lifexId];
+  }
+
+  /// ترقية مستوى التحقق (مثلاً بعد تأكيد OTP أو رفع وثيقة رسمية).
+  bool upgradeVerification(
+    String lifexId,
+    IdentityVerificationLevel newLevel,
+  ) {
+    final identity = _identitiesByLifexId[lifexId];
+    if (identity == null) {
+      ErrorHandler.instance.report(
+        'IDENTITY_NOT_FOUND',
+        'محاولة ترقية تحقق لهوية غير موجودة: $lifexId',
+        sourceModule: 'health_identity_manager',
+        severity: ErrorSeverity.warning,
+      );
+      return false;
+    }
+
+    // منع التراجع لمستوى أقل بالخطأ.
+    if (newLevel.index < identity.verificationLevel.index) {
+      return false;
+    }
+
+    identity.verificationLevel = newLevel;
+    if (newLevel == IdentityVerificationLevel.fullyVerified) {
+      identity.verifiedAt = DateTime.now();
+    }
+    return true;
+  }
+
+  /// هل الهوية موثوقة بما يكفي لعمليات حساسة (مثل التبرع بالدم أو
+  /// الوصول لبيانات طبية مشتركة)؟
+  bool isTrustedForSensitiveActions(String lifexId) {
+    final identity = _identitiesByLifexId[lifexId];
+    if (identity == null) return false;
+    return identity.verificationLevel ==
+            IdentityVerificationLevel.documentVerified ||
+        identity.verificationLevel == IdentityVerificationLevel.fullyVerified;
+  }
+}

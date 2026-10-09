@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Lifex-AI Global Health Network
+    الملف: AndroidManifest.xml
+    المسار: android/app/src/main/AndroidManifest.xml
+    الوصف: تعريف الأذونات المطلوبة لكل وحدات التطبيق. كل إذن هنا
+    مرتبط بميزة فعلية مبنية في المشروع (vision, voice, network, energy).
+
+    ⚠️ ملاحظة Google Play: يجب أن يطلب التطبيق كل إذن وقت الحاجة الفعلية
+    (Runtime Permission) وليس عند الإقلاع، مع شرح واضح للمستخدم قبل
+    الطلب (كما هو موثّق في تعليقات كل وحدة ذات صلة). هذا الملف يعرّف
+    الأذونات على مستوى النظام فقط؛ الطلب الفعلي يتم برمجياً عبر حزمة
+    permission_handler من داخل الشاشة المعنية.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- الإنترنت — لمزامنة البيانات مع الخادم لاحقاً -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- الكاميرا — smart_vision_engine.dart وكل محركات الرؤية الفرعية -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- الميكروفون — voice_engine.dart وspeech_to_text_processor.dart -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- البلوتوث — bluetooth_manager.dart للاتصال بأجهزة طبية منزلية -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <!-- الموقع الجغرافي — donor_eligibility_filter.dart وgeo_expansion_dispatcher.dart
+         لشبكة التبرع بالدم، وhospital_network_bridge.dart لأقرب مستشفى -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- ملاحظة: حالة البطارية (battery_monitor.dart) لا تحتاج أي إذن.
+         مكتبة battery_plus تقرأ نسبة الشحن وحالة الشحن عبر واجهات نظام
+         عامة بلا أذونات. إذن BATTERY_STATS كان مُعلَناً هنا سابقاً
+         بالخطأ: هو إذن محمي بمستوى "Signature" لا يُمنح إلا لتطبيقات
+         النظام الموقَّعة بمفتاح المنصة نفسها، فلا فائدة من إعلانه في
+         تطبيق عادي — تم حذفه. -->
+
+    <!-- الإشعارات — health_alert_dispatcher.dart وflash_alert_notifier.dart -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- الاهتزاز — multi_sensory_alert_manager.dart لتنبيه المستخدمين
+         الصم أو ضعاف السمع عبر حاسة اللمس بدلاً من الصوت فقط -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- الرسائل النصية — sms_fallback_channel.dart (طوارئ فقط) -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:label="Lifex-AI"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+
+</manifest>

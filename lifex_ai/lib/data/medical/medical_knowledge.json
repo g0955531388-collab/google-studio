@@ -1,0 +1,4402 @@
+{
+  "_meta": {
+    "fileName": "medical_knowledge.json",
+    "path": "lib/data/medical/medical_knowledge.json",
+    "description": "طبقة ربط علوية تجمع إشارات مرجعية بين الأمراض والأعراض والتحاليل والأدوية دون تكرار بياناتها؛ تُستخدم من محرك الذكاء الاصطناعي (ai_engine.dart) كخريطة استرشادية فقط",
+    "disclaimer_ar": "هذا الملف أداة ربط استرشادية بين قواعد البيانات الأخرى، ولا يُنتج أي تشخيص أو قرار علاجي مستقل. أي استنتاج من هذه البيانات يجب أن يُعرض للمستخدم مصحوباً دائماً بتوصية صريحة لمراجعة طبيب، ولا يُستخدم لاتخاذ قرار علاجي نهائي داخل التطبيق.",
+    "disclaimer_en": "This file is a cross-reference aid only. Any inference must always be shown to the user together with an explicit recommendation to consult a physician, and must never be used to make a final treatment decision within the app.",
+    "schemaVersion": "2.0.0",
+    "lastUpdated": "2026-07-11"
+  },
+  "diseaseSymptomLinks": [
+    {
+      "diseaseId": "d001",
+      "symptomIds": [
+        "s001",
+        "s002",
+        "s014"
+      ],
+      "confidenceNote": "إشارة عامة فقط"
+    },
+    {
+      "diseaseId": "d002",
+      "symptomIds": [
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "confidenceNote": "إشارة عامة فقط"
+    },
+    {
+      "diseaseId": "d003",
+      "symptomIds": [
+        "s006",
+        "s007"
+      ],
+      "confidenceNote": "إشارة عامة فقط"
+    },
+    {
+      "diseaseId": "d004",
+      "symptomIds": [
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "confidenceNote": "طوارئ — يجب توجيه المستخدم فوراً للاتصال بالإسعاف"
+    },
+    {
+      "diseaseId": "d005",
+      "symptomIds": [
+        "s011",
+        "s012",
+        "s013"
+      ],
+      "confidenceNote": "إشارة عامة فقط"
+    },
+    {
+      "diseaseId": "d006",
+      "symptomIds": [
+        "s026",
+        "s027",
+        "s028",
+        "s052",
+        "s053"
+      ],
+      "confidenceNote": "طوارئ — سكتة دماغية محتملة"
+    },
+    {
+      "diseaseId": "d021",
+      "symptomIds": [
+        "s091",
+        "s092",
+        "s093",
+        "s094"
+      ],
+      "confidenceNote": "إشارة عامة فقط — يستدعي تقييم أخصائي نفسي"
+    },
+    {
+      "diseaseId": "d036",
+      "symptomIds": [
+        "s152",
+        "s153",
+        "s154"
+      ],
+      "confidenceNote": "يستدعي فحصاً إشعاعياً عاجلاً"
+    },
+    {
+      "diseaseId": "d039",
+      "symptomIds": [
+        "s161",
+        "s162",
+        "s163"
+      ],
+      "confidenceNote": "طوارئ — جفاف حاد عند الأطفال"
+    },
+    {
+      "diseaseId": "d007",
+      "symptomIds": [
+        "s029",
+        "s030",
+        "s054",
+        "s055",
+        "s099",
+        "s103",
+        "s171",
+        "s186"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d022",
+      "symptomIds": [
+        "s095",
+        "s096",
+        "s013",
+        "s010",
+        "s021",
+        "s123",
+        "s124",
+        "s184",
+        "s200"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d023",
+      "symptomIds": [
+        "s097",
+        "s098",
+        "s002",
+        "s092"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d024",
+      "symptomIds": [
+        "s113",
+        "s114",
+        "s115",
+        "s116"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d025",
+      "symptomIds": [
+        "s034",
+        "s099",
+        "s100",
+        "s101",
+        "s102",
+        "s095",
+        "s108",
+        "s170"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d026",
+      "symptomIds": [
+        "s004",
+        "s110",
+        "s111",
+        "s042",
+        "s112",
+        "s126",
+        "s109"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d027",
+      "symptomIds": [
+        "s127",
+        "s128",
+        "s129",
+        "s033",
+        "s001"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d028",
+      "symptomIds": [
+        "s130",
+        "s131",
+        "s132",
+        "s039",
+        "s078",
+        "s091"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d029",
+      "symptomIds": [
+        "s127",
+        "s133",
+        "s134",
+        "s126",
+        "s005",
+        "s101"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d030",
+      "symptomIds": [
+        "s135",
+        "s136",
+        "s137",
+        "s095",
+        "s040",
+        "s091"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d031",
+      "symptomIds": [
+        "s133",
+        "s138",
+        "s011",
+        "s012",
+        "s005"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d032",
+      "symptomIds": [
+        "s139",
+        "s140",
+        "s141",
+        "s142"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d033",
+      "symptomIds": [
+        "s143",
+        "s144",
+        "s145",
+        "s100",
+        "s180"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d034",
+      "symptomIds": [
+        "s146",
+        "s147",
+        "s148",
+        "s042",
+        "s196"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d035",
+      "symptomIds": [
+        "s149",
+        "s150",
+        "s151",
+        "s134"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d037",
+      "symptomIds": [
+        "s156",
+        "s157",
+        "s005",
+        "s091",
+        "s095"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d038",
+      "symptomIds": [
+        "s158",
+        "s159",
+        "s160",
+        "s042",
+        "s043",
+        "s196",
+        "s198",
+        "s199",
+        "s200"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d040",
+      "symptomIds": [
+        "s189",
+        "s190",
+        "s191",
+        "s192",
+        "s001",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d041",
+      "symptomIds": [
+        "s184",
+        "s193",
+        "s194",
+        "s195",
+        "s183",
+        "s001"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d042",
+      "symptomIds": [
+        "s171",
+        "s179",
+        "s180",
+        "s181",
+        "s182",
+        "s183",
+        "s185"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d043",
+      "symptomIds": [
+        "s164",
+        "s165",
+        "s166",
+        "s167",
+        "s168",
+        "s169",
+        "s170"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d044",
+      "symptomIds": [
+        "s006",
+        "s234",
+        "s005",
+        "s013",
+        "s021"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d045",
+      "symptomIds": [
+        "s013",
+        "s002",
+        "s224"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d046",
+      "symptomIds": [
+        "s013",
+        "s006",
+        "s002",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d047",
+      "symptomIds": [
+        "s006",
+        "s234",
+        "s013",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d048",
+      "symptomIds": [
+        "s006",
+        "s013",
+        "s234",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d049",
+      "symptomIds": [
+        "s008",
+        "s005",
+        "s013",
+        "s042"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d050",
+      "symptomIds": [
+        "s008",
+        "s042",
+        "s006"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d051",
+      "symptomIds": [
+        "s024",
+        "s126",
+        "s234"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d052",
+      "symptomIds": [
+        "s005",
+        "s078",
+        "s040",
+        "s024"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d053",
+      "symptomIds": [
+        "s013",
+        "s018",
+        "s040",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d054",
+      "symptomIds": [
+        "s005",
+        "s078",
+        "s040"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d055",
+      "symptomIds": [
+        "s078",
+        "s005",
+        "s019"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d056",
+      "symptomIds": [
+        "s005",
+        "s018",
+        "s104"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d057",
+      "symptomIds": [
+        "s078",
+        "s005",
+        "s017"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d058",
+      "symptomIds": [
+        "s078",
+        "s005",
+        "s190"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d060",
+      "symptomIds": [
+        "s005",
+        "s234",
+        "s112",
+        "s104"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d061",
+      "symptomIds": [
+        "s005",
+        "s234",
+        "s104",
+        "s019"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d062",
+      "symptomIds": [
+        "s126",
+        "s110",
+        "s109"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d063",
+      "symptomIds": [
+        "s234",
+        "s109",
+        "s042"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d064",
+      "symptomIds": [
+        "s234",
+        "s112",
+        "s078"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d065",
+      "symptomIds": [
+        "s004",
+        "s110"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d066",
+      "symptomIds": [
+        "s004",
+        "s110",
+        "s018",
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d067",
+      "symptomIds": [
+        "s220",
+        "s104",
+        "s005",
+        "s103"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d068",
+      "symptomIds": [
+        "s005",
+        "s078"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d069",
+      "symptomIds": [
+        "s220",
+        "s221",
+        "s005",
+        "s104"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d070",
+      "symptomIds": [
+        "s049",
+        "s105",
+        "s042"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d071",
+      "symptomIds": [
+        "s049",
+        "s029",
+        "s104"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d072",
+      "symptomIds": [
+        "s099",
+        "s222",
+        "s018",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d073",
+      "symptomIds": [
+        "s101",
+        "s222",
+        "s099"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d074",
+      "symptomIds": [
+        "s223",
+        "s034",
+        "s101"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d075",
+      "symptomIds": [
+        "s204",
+        "s002"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d076",
+      "symptomIds": [
+        "s201",
+        "s203",
+        "s028"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d077",
+      "symptomIds": [
+        "s202",
+        "s050"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d078",
+      "symptomIds": [
+        "s231",
+        "s232",
+        "s019"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d079",
+      "symptomIds": [
+        "s019",
+        "s024"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d080",
+      "symptomIds": [
+        "s001",
+        "s217",
+        "s103"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d081",
+      "symptomIds": [
+        "s019",
+        "s125"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d082",
+      "symptomIds": [
+        "s006",
+        "s007",
+        "s020"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d083",
+      "symptomIds": [
+        "s007",
+        "s042",
+        "s006",
+        "s233"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d084",
+      "symptomIds": [
+        "s006",
+        "s007",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d085",
+      "symptomIds": [
+        "s007",
+        "s218",
+        "s042"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d086",
+      "symptomIds": [
+        "s209",
+        "s206"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d087",
+      "symptomIds": [
+        "s210"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d088",
+      "symptomIds": [
+        "s213"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d089",
+      "symptomIds": [
+        "s210",
+        "s150"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d090",
+      "symptomIds": [
+        "s211"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d091",
+      "symptomIds": [
+        "s212",
+        "s001"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d092",
+      "symptomIds": [
+        "s206",
+        "s207",
+        "s042",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d093",
+      "symptomIds": [
+        "s206",
+        "s207",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d094",
+      "symptomIds": [
+        "s207",
+        "s209",
+        "s206"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d095",
+      "symptomIds": [
+        "s208",
+        "s005"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d096",
+      "symptomIds": [
+        "s042",
+        "s005",
+        "s019"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d097",
+      "symptomIds": [
+        "s042",
+        "s007",
+        "s005",
+        "s001"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d098",
+      "symptomIds": [
+        "s042",
+        "s007",
+        "s006",
+        "s164"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d099",
+      "symptomIds": [
+        "s218",
+        "s042",
+        "s018",
+        "s136"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d100",
+      "symptomIds": [
+        "s216",
+        "s042",
+        "s215",
+        "s217"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d101",
+      "symptomIds": [
+        "s214",
+        "s224",
+        "s215"
+      ],
+      "confidenceNote": "طوارئ — يتطلب تقييماً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d102",
+      "symptomIds": [
+        "s218",
+        "s018",
+        "s006",
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d103",
+      "symptomIds": [
+        "s143",
+        "s018",
+        "s102",
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d104",
+      "symptomIds": [
+        "s220",
+        "s221",
+        "s018",
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d105",
+      "symptomIds": [
+        "s220",
+        "s018",
+        "s049",
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d107",
+      "symptomIds": [
+        "s005",
+        "s042",
+        "s011",
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d108",
+      "symptomIds": [
+        "s219"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d109",
+      "symptomIds": [
+        "s126",
+        "s034",
+        "s219",
+        "s018"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    },
+    {
+      "diseaseId": "d110",
+      "symptomIds": [
+        "s133",
+        "s134",
+        "s138"
+      ],
+      "confidenceNote": "إشارة استرشادية عامة فقط، وليست تشخيصاً"
+    }
+  ],
+  "diseaseTestLinks": [
+    {
+      "diseaseId": "d001",
+      "recommendedTestIds": [
+        "t003",
+        "t004"
+      ]
+    },
+    {
+      "diseaseId": "d002",
+      "recommendedTestIds": [
+        "t002"
+      ]
+    },
+    {
+      "diseaseId": "d004",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d005",
+      "recommendedTestIds": [
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d007",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d025",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d026",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d044",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d045",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d046",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d047",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d048",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d049",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d050",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d051",
+      "recommendedTestIds": [
+        "t003"
+      ]
+    },
+    {
+      "diseaseId": "d052",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d053",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d054",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d055",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d056",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d057",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d058",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d059",
+      "recommendedTestIds": [
+        "t002",
+        "t010",
+        "t012"
+      ]
+    },
+    {
+      "diseaseId": "d060",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d061",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d062",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d063",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d064",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d065",
+      "recommendedTestIds": [
+        "t004",
+        "t011"
+      ]
+    },
+    {
+      "diseaseId": "d066",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d067",
+      "recommendedTestIds": [
+        "t005"
+      ]
+    },
+    {
+      "diseaseId": "d068",
+      "recommendedTestIds": [
+        "t005"
+      ]
+    },
+    {
+      "diseaseId": "d069",
+      "recommendedTestIds": [
+        "t005"
+      ]
+    },
+    {
+      "diseaseId": "d070",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d071",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d072",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d073",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d074",
+      "recommendedTestIds": [
+        "t005",
+        "t008"
+      ]
+    },
+    {
+      "diseaseId": "d092",
+      "recommendedTestIds": [
+        "t008",
+        "t009",
+        "t013"
+      ]
+    },
+    {
+      "diseaseId": "d093",
+      "recommendedTestIds": [
+        "t008",
+        "t009",
+        "t013"
+      ]
+    },
+    {
+      "diseaseId": "d094",
+      "recommendedTestIds": [
+        "t008",
+        "t009",
+        "t013"
+      ]
+    },
+    {
+      "diseaseId": "d095",
+      "recommendedTestIds": [
+        "t008",
+        "t009",
+        "t013"
+      ]
+    },
+    {
+      "diseaseId": "d096",
+      "recommendedTestIds": [
+        "t008",
+        "t009",
+        "t013"
+      ]
+    },
+    {
+      "diseaseId": "d097",
+      "recommendedTestIds": [
+        "t001",
+        "t008",
+        "t009"
+      ]
+    },
+    {
+      "diseaseId": "d098",
+      "recommendedTestIds": [
+        "t001",
+        "t008",
+        "t009"
+      ]
+    },
+    {
+      "diseaseId": "d099",
+      "recommendedTestIds": [
+        "t001",
+        "t008",
+        "t009"
+      ]
+    },
+    {
+      "diseaseId": "d100",
+      "recommendedTestIds": [
+        "t001",
+        "t008",
+        "t009"
+      ]
+    },
+    {
+      "diseaseId": "d101",
+      "recommendedTestIds": [
+        "t001",
+        "t008",
+        "t009"
+      ]
+    },
+    {
+      "diseaseId": "d102",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d103",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d104",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d105",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d107",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d108",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d109",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    },
+    {
+      "diseaseId": "d110",
+      "recommendedTestIds": [
+        "t014",
+        "t001"
+      ]
+    }
+  ],
+  "diseaseMedicationLinks": [
+    {
+      "diseaseId": "d002",
+      "commonMedicationIds": [
+        "m005"
+      ],
+      "note": "بوصفة طبية فقط وتحت متابعة الطبيب"
+    },
+    {
+      "diseaseId": "d003",
+      "commonMedicationIds": [],
+      "note": "علاج الربو يعتمد أدوية استنشاقية متخصصة غير مدرجة هنا حالياً"
+    }
+  ],
+  "emergencyEscalationRules": [
+    {
+      "triggerSymptomIds": [
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "الأعراض المدخلة قد تشير إلى حالة قلبية طارئة. يُرجى الاتصال بالإسعاف فوراً ولا تعتمد على هذا التطبيق وحده."
+    },
+    {
+      "triggerSymptomIds": [
+        "s006"
+      ],
+      "action": "recommend_urgent_review",
+      "messageAr": "ضيق التنفس قد يستدعي تقييماً طبياً عاجلاً حسب شدته ومدته."
+    },
+    {
+      "triggerSymptomIds": [
+        "s026",
+        "s027",
+        "s028",
+        "s052",
+        "s053"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "الأعراض المدخلة قد تشير إلى سكتة دماغية محتملة (شلل مفاجئ، صعوبة كلام، فقدان توازن). يُرجى الاتصال بالإسعاف فوراً — كل دقيقة مهمة في هذه الحالة."
+    },
+    {
+      "triggerSymptomIds": [
+        "s152",
+        "s153",
+        "s154"
+      ],
+      "action": "recommend_urgent_review",
+      "messageAr": "وجود كتلة بالثدي أو تغيّر في الحلمة أو مفرزات غير معتادة يستدعي مراجعة طبية عاجلة لإجراء الفحوصات اللازمة."
+    },
+    {
+      "triggerSymptomIds": [
+        "s161",
+        "s162",
+        "s163"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "علامات الجفاف الشديد لدى طفل أو رضيع (جفاف الفم، غور العينين، خمول شديد) حالة طارئة تستدعي التوجه الفوري للطوارئ."
+    },
+    {
+      "triggerSymptomIds": [
+        "s133",
+        "s138"
+      ],
+      "action": "recommend_urgent_review",
+      "messageAr": "نزيف رحمي غير معتاد (غزير جداً أو خارج موعد الدورة) يستدعي مراجعة طبيبة نسائية لتحديد السبب."
+    },
+    {
+      "triggerSymptomIds": [
+        "s214",
+        "s224",
+        "s215"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "حمى شديدة مع تسارع نبض وتشوش ذهني قد تشير إلى إنتان (تسمم دم) — حالة طارئة تستدعي التوجه الفوري للمستشفى."
+    },
+    {
+      "triggerSymptomIds": [
+        "s229"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "نزيف حاد لا يتوقف بالضغط المباشر حالة طارئة — اتصل بالإسعاف فوراً."
+    },
+    {
+      "triggerSymptomIds": [
+        "s225",
+        "s226"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "تورم مفاجئ بالوجه أو الحلق مع صعوبة تنفس بعد التعرض لمادة معينة قد يشير إلى حساسية مفرطة (Anaphylaxis) — استخدم حقنة الإبينفرين إن توفرت واتصل بالإسعاف فوراً."
+    },
+    {
+      "triggerSymptomIds": [
+        "s227"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "ارتجاف وتعرق وارتباك مع انخفاض حاد بسكر الدم حالة طارئة تستدعي تناول سكر سريع فوراً وطلب المساعدة."
+    },
+    {
+      "triggerSymptomIds": [
+        "s228"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "صداع شديد مفاجئ مع اضطراب رؤية قد يشير إلى أزمة ضغط دم خطيرة — يتطلب تقييماً طبياً فورياً."
+    },
+    {
+      "triggerSymptomIds": [
+        "s205"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "فقدان الوعي المفاجئ حالة طارئة تستدعي الاتصال بالإسعاف فوراً."
+    },
+    {
+      "triggerSymptomIds": [
+        "s204"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "نوبة تشنجية (صرع) تستدعي حماية الشخص من الأذى والاتصال بالإسعاف إن استمرت أو تكررت."
+    },
+    {
+      "triggerSymptomIds": [
+        "s230"
+      ],
+      "action": "escalate_to_emergency_module",
+      "messageAr": "إذا كنت تفكر في إيذاء نفسك، فأنت لست وحدك ويمكن الحصول على مساعدة فورية. يُرجى التواصل فوراً مع خط الدعم النفسي الطارئ في بلدك أو التوجه لأقرب طوارئ."
+    }
+  ],
+  "diseaseRiskFactorLinks": [
+    {
+      "diseaseId": "d001",
+      "riskCategories": [
+        "age",
+        "genetic",
+        "obesity",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "العمر",
+        "السمنة",
+        "التدخين",
+        "التاريخ العائلي",
+        "الإفراط في الصوديوم",
+        "انقطاع التنفس الانسدادي النومي",
+        "التوتر النفسي المزمن"
+      ]
+    },
+    {
+      "diseaseId": "d002",
+      "riskCategories": [
+        "genetic",
+        "lifestyle",
+        "obesity"
+      ],
+      "detailedFactorsAr": [
+        "السمنة",
+        "قلة الحركة",
+        "التاريخ العائلي",
+        "النظام الغذائي غير الصحي"
+      ]
+    },
+    {
+      "diseaseId": "d003",
+      "riskCategories": [
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "الحساسية",
+        "التاريخ العائلي",
+        "التلوث بيئياً",
+        "التدخين السلبي",
+        "الارتجاع المريئي"
+      ]
+    },
+    {
+      "diseaseId": "d004",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التدخين",
+        "ارتفاع الضغط",
+        "السكري",
+        "الكوليسترول",
+        "الإجهاد البدني العنيف",
+        "نوبات الهلع الشديدة"
+      ]
+    },
+    {
+      "diseaseId": "d006",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "ارتفاع ضغط الدم الشرياني",
+        "الرجفان الأذيني للقلب",
+        "التدخين المزمن",
+        "السكري"
+      ]
+    },
+    {
+      "diseaseId": "d007",
+      "riskCategories": [
+        "obesity",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "السمنة",
+        "التدخين",
+        "تناول الأطعمة الدهنية والحارة",
+        "الحمل",
+        "فتق الحجاب الحاجز"
+      ]
+    },
+    {
+      "diseaseId": "d022",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التوتر البيئي المتراكم",
+        "الشخصية الحساسة المفرطة",
+        "التاريخ العائلي للاضطرابات النفسية الحادة"
+      ]
+    },
+    {
+      "diseaseId": "d027",
+      "riskCategories": [
+        "age",
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "العمر المبكر",
+        "البلوغ المفاجئ",
+        "غزارة الطمث الوظيفية",
+        "التاريخ العائلي لعسر الطمث الميكانيكي",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d028",
+      "riskCategories": [
+        "genetic",
+        "obesity"
+      ],
+      "detailedFactorsAr": [
+        "مقاومة الأنسولين الخلوية",
+        "العوامل الوراثية الجينية",
+        "السمنة المفرطة وتراكم الدهون",
+        "الالتهابات منخفضة الدرجة المزمنة"
+      ]
+    },
+    {
+      "diseaseId": "d036",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الرضاعة الطبيعية",
+        "التغيرات الهرمونية الدورية العنيفة",
+        "التاريخ العائلي لأمراض وأورام الثدي"
+      ]
+    },
+    {
+      "diseaseId": "d040",
+      "riskCategories": [
+        "genetic",
+        "obesity"
+      ],
+      "detailedFactorsAr": [
+        "السمنة المفرطة وضيق المجرى الهوائي العلوي",
+        "ارتخاء عضلات الحلق",
+        "التاريخ العائلي للشخير الحاد"
+      ]
+    },
+    {
+      "diseaseId": "d042",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "إهمال النظافة الفموية اليومية",
+        "التدخين",
+        "ضعف الجهاز المناعي الموضعي",
+        "نقص الفيتامينات الأساسية كفيتامين C"
+      ]
+    },
+    {
+      "diseaseId": "d044",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "ارتفاع ضغط الدم المزمن",
+        "أمراض الشرايين التاجية",
+        "اعتلال عضلة القلب",
+        "التقدم بالعمر"
+      ]
+    },
+    {
+      "diseaseId": "d045",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "أمراض القلب الهيكلية",
+        "اضطراب الشوارد",
+        "التوتر والكافيين الزائد",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d046",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "التقدم بالعمر",
+        "ارتفاع ضغط الدم",
+        "أمراض صمامات القلب",
+        "فرط نشاط الغدة الدرقية"
+      ]
+    },
+    {
+      "diseaseId": "d047",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "الحمى الروماتيزمية السابقة",
+        "التقدم بالعمر",
+        "العيوب الخلقية",
+        "التهاب الشغاف"
+      ]
+    },
+    {
+      "diseaseId": "d048",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التاريخ العائلي الوراثي",
+        "ارتفاع ضغط الدم المزمن",
+        "إدمان الكحول",
+        "العدوى الفيروسية السابقة"
+      ]
+    },
+    {
+      "diseaseId": "d051",
+      "riskCategories": [
+        "age",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التدخين",
+        "السكري",
+        "ارتفاع ضغط الدم",
+        "ارتفاع الكوليسترول",
+        "التقدم بالعمر"
+      ]
+    },
+    {
+      "diseaseId": "d052",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التاريخ العائلي",
+        "أمراض المناعة الذاتية",
+        "الجنس الأنثوي",
+        "بعد الولادة"
+      ]
+    },
+    {
+      "diseaseId": "d053",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "مرض غريفز المناعي",
+        "عقيدات الغدة الدرقية النشطة",
+        "التاريخ العائلي"
+      ]
+    },
+    {
+      "diseaseId": "d054",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الاستعداد المناعي الذاتي الوراثي",
+        "الجنس الأنثوي",
+        "أمراض مناعية ذاتية أخرى مصاحبة"
+      ]
+    },
+    {
+      "diseaseId": "d057",
+      "riskCategories": [
+        "genetic",
+        "lifestyle",
+        "obesity"
+      ],
+      "detailedFactorsAr": [
+        "السمنة",
+        "قلة الحركة",
+        "التاريخ العائلي للسكري",
+        "النظام الغذائي الغني بالسكريات"
+      ]
+    },
+    {
+      "diseaseId": "d058",
+      "riskCategories": [
+        "genetic",
+        "lifestyle"
+      ],
+      "detailedFactorsAr": [
+        "نمط الحياة الخامل",
+        "العوامل الوراثية",
+        "الاضطرابات الهرمونية",
+        "بعض الأدوية"
+      ]
+    },
+    {
+      "diseaseId": "d059",
+      "riskCategories": [
+        "genetic",
+        "lifestyle",
+        "obesity"
+      ],
+      "detailedFactorsAr": [
+        "النظام الغذائي الغني بالدهون المشبعة",
+        "التاريخ العائلي",
+        "قلة الحركة",
+        "السمنة"
+      ]
+    },
+    {
+      "diseaseId": "d061",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "السكري غير المنضبط",
+        "ارتفاع ضغط الدم المزمن",
+        "التاريخ العائلي",
+        "الالتهابات الكلوية المتكررة"
+      ]
+    },
+    {
+      "diseaseId": "d062",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "قلة شرب الماء",
+        "النظام الغذائي الغني بالأملاح",
+        "التاريخ العائلي",
+        "بعض الاضطرابات الاستقلابية"
+      ]
+    },
+    {
+      "diseaseId": "d065",
+      "riskCategories": [
+        "age",
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التقدم بالعمر",
+        "التاريخ العائلي",
+        "الخلل الهرموني المرتبط بالعمر"
+      ]
+    },
+    {
+      "diseaseId": "d066",
+      "riskCategories": [
+        "age",
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التقدم بالعمر",
+        "التاريخ العائلي",
+        "العرق",
+        "النظام الغذائي عالي الدهون"
+      ]
+    },
+    {
+      "diseaseId": "d068",
+      "riskCategories": [
+        "obesity"
+      ],
+      "detailedFactorsAr": [
+        "السمنة",
+        "السكري",
+        "ارتفاع الدهون الثلاثية",
+        "إدمان الكحول"
+      ]
+    },
+    {
+      "diseaseId": "d071",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "عدوى بكتيريا هيليكوباكتر بيلوري",
+        "الاستخدام المزمن لمضادات الالتهاب",
+        "التدخين",
+        "التوتر الشديد"
+      ]
+    },
+    {
+      "diseaseId": "d072",
+      "riskCategories": [
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "الاستعداد الوراثي",
+        "اضطراب المناعة الذاتية",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d073",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الاستعداد الوراثي",
+        "اضطراب المناعة الذاتية"
+      ]
+    },
+    {
+      "diseaseId": "d074",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الاستعداد الوراثي والمناعي",
+        "التاريخ العائلي"
+      ]
+    },
+    {
+      "diseaseId": "d075",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "إصابات الرأس السابقة",
+        "التاريخ العائلي",
+        "عدوى دماغية سابقة",
+        "تشوهات خلقية بالدماغ"
+      ]
+    },
+    {
+      "diseaseId": "d076",
+      "riskCategories": [
+        "age",
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التقدم بالعمر",
+        "التاريخ العائلي",
+        "التعرض لبعض السموم البيئية"
+      ]
+    },
+    {
+      "diseaseId": "d077",
+      "riskCategories": [
+        "age",
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التقدم بالعمر",
+        "التاريخ العائلي",
+        "أمراض القلب والأوعية"
+      ]
+    },
+    {
+      "diseaseId": "d079",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "السكري غير المنضبط لفترة طويلة",
+        "ارتفاع الدهون بالدم",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d080",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التاريخ العائلي",
+        "التوتر",
+        "بعض الأطعمة والمحفزات",
+        "التغيرات الهرمونية"
+      ]
+    },
+    {
+      "diseaseId": "d082",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التدخين المزمن (السبب الأول)",
+        "التعرض المهني للأتربة والأبخرة",
+        "التلوث الهوائي المزمن"
+      ]
+    },
+    {
+      "diseaseId": "d083",
+      "riskCategories": [
+        "age",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "العدوى البكتيرية أو الفيروسية",
+        "ضعف المناعة",
+        "التقدم بالعمر",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d084",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التدخين",
+        "التعرض المهني طويل الأمد لبعض الغبار",
+        "بعض الأمراض المناعية الذاتية"
+      ]
+    },
+    {
+      "diseaseId": "d086",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الاستعداد الوراثي المناعي",
+        "التوتر النفسي",
+        "بعض العدوى المسبقة"
+      ]
+    },
+    {
+      "diseaseId": "d087",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التاريخ العائلي للحساسية",
+        "الجلد الجاف",
+        "المهيّجات البيئية"
+      ]
+    },
+    {
+      "diseaseId": "d088",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التغيرات الهرمونية (المراهقة)",
+        "الاستعداد الوراثي",
+        "بعض مستحضرات التجميل الدهنية"
+      ]
+    },
+    {
+      "diseaseId": "d090",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الاستعداد المناعي الذاتي",
+        "التاريخ العائلي"
+      ]
+    },
+    {
+      "diseaseId": "d091",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "إصابة سابقة بجدري الماء",
+        "ضعف المناعة",
+        "التقدم بالعمر",
+        "التوتر الشديد"
+      ]
+    },
+    {
+      "diseaseId": "d092",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الجنس الأنثوي",
+        "الاستعداد الوراثي المناعي",
+        "التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d093",
+      "riskCategories": [
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "الجنس الأنثوي",
+        "الاستعداد الوراثي",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d094",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "الإصابة المسبقة بالصدفية الجلدية",
+        "التاريخ العائلي"
+      ]
+    },
+    {
+      "diseaseId": "d095",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "الجنس الأنثوي",
+        "الاستعداد المناعي الذاتي",
+        "التقدم بالعمر"
+      ]
+    },
+    {
+      "diseaseId": "d097",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "ضعف المناعة",
+        "عدم أخذ اللقاح الموسمي",
+        "التقدم بالعمر",
+        "الازدحام في الأماكن المغلقة"
+      ]
+    },
+    {
+      "diseaseId": "d098",
+      "riskCategories": [
+        "age"
+      ],
+      "detailedFactorsAr": [
+        "ضعف المناعة",
+        "عدم أخذ اللقاح",
+        "الأمراض المزمنة المصاحبة",
+        "التقدم بالعمر"
+      ]
+    },
+    {
+      "diseaseId": "d102",
+      "riskCategories": [
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التدخين (السبب الأول)",
+        "التعرض المهني للأسبستوس والملوثات",
+        "التاريخ العائلي"
+      ]
+    },
+    {
+      "diseaseId": "d103",
+      "riskCategories": [
+        "age",
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التقدم بالعمر",
+        "التاريخ العائلي",
+        "النظام الغذائي منخفض الألياف",
+        "التدخين"
+      ]
+    },
+    {
+      "diseaseId": "d105",
+      "riskCategories": [
+        "genetic",
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "التدخين",
+        "التاريخ العائلي",
+        "التهاب البنكرياس المزمن",
+        "السكري"
+      ]
+    },
+    {
+      "diseaseId": "d107",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التعرض للإشعاع أو مواد كيميائية معينة",
+        "بعض المتلازمات الوراثية",
+        "العلاج الكيميائي السابق"
+      ]
+    },
+    {
+      "diseaseId": "d108",
+      "riskCategories": [
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التعرض الشمسي المفرط دون حماية",
+        "البشرة الفاتحة جداً",
+        "التاريخ العائلي",
+        "الشامات الكثيرة أو غير المنتظمة"
+      ]
+    },
+    {
+      "diseaseId": "d109",
+      "riskCategories": [
+        "age",
+        "genetic"
+      ],
+      "detailedFactorsAr": [
+        "التاريخ العائلي والوراثي (BRCA)",
+        "التقدم بالعمر",
+        "عدم الإنجاب"
+      ]
+    },
+    {
+      "diseaseId": "d110",
+      "riskCategories": [
+        "smoking"
+      ],
+      "detailedFactorsAr": [
+        "عدوى فيروس الورم الحليمي البشري (HPV)",
+        "عدم انتظام الفحص الدوري (مسحة عنق الرحم)",
+        "التدخين"
+      ]
+    }
+  ],
+  "diseaseWarningSignsLinks": [
+    {
+      "diseaseId": "d003",
+      "warningSymptomIds": [
+        "s006",
+        "s007",
+        "s020",
+        "s021",
+        "s106",
+        "s107",
+        "s189",
+        "s191"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d004",
+      "warningSymptomIds": [
+        "s008",
+        "s009",
+        "s010",
+        "s022",
+        "s023",
+        "s049",
+        "s105",
+        "s124",
+        "s197"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d006",
+      "warningSymptomIds": [
+        "s026",
+        "s027",
+        "s028",
+        "s052",
+        "s053",
+        "s173",
+        "s174",
+        "s175"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d031",
+      "warningSymptomIds": [
+        "s133",
+        "s138",
+        "s011",
+        "s012",
+        "s005"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d036",
+      "warningSymptomIds": [
+        "s152",
+        "s153",
+        "s154",
+        "s155",
+        "s126"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d039",
+      "warningSymptomIds": [
+        "s101",
+        "s105",
+        "s161",
+        "s162",
+        "s163",
+        "s042"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d049",
+      "warningSymptomIds": [
+        "s008",
+        "s005",
+        "s013",
+        "s042"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d060",
+      "warningSymptomIds": [
+        "s005",
+        "s234",
+        "s112",
+        "s104"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d070",
+      "warningSymptomIds": [
+        "s049",
+        "s105",
+        "s042"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d075",
+      "warningSymptomIds": [
+        "s204",
+        "s002"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d083",
+      "warningSymptomIds": [
+        "s007",
+        "s042",
+        "s006",
+        "s233"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d100",
+      "warningSymptomIds": [
+        "s216",
+        "s042",
+        "s215",
+        "s217"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    },
+    {
+      "diseaseId": "d101",
+      "warningSymptomIds": [
+        "s214",
+        "s224",
+        "s215"
+      ],
+      "messageAr": "هذه الحالة مصنّفة ضمن الحالات التي قد تستدعي تقييماً طبياً عاجلاً — لا تنتظر تفاقم الأعراض."
+    }
+  ],
+  "diseaseSpecialistLinks": [
+    {
+      "diseaseId": "d001",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d002",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d003",
+      "recommendedSpecialtyAr": "أمراض الصدر والتنفس"
+    },
+    {
+      "diseaseId": "d004",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d006",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d007",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d021",
+      "recommendedSpecialtyAr": "الطب النفسي"
+    },
+    {
+      "diseaseId": "d022",
+      "recommendedSpecialtyAr": "الطب النفسي"
+    },
+    {
+      "diseaseId": "d023",
+      "recommendedSpecialtyAr": "الطب النفسي"
+    },
+    {
+      "diseaseId": "d024",
+      "recommendedSpecialtyAr": "طب العيون"
+    },
+    {
+      "diseaseId": "d025",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d026",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d027",
+      "recommendedSpecialtyAr": "النسائية والتوليد"
+    },
+    {
+      "diseaseId": "d028",
+      "recommendedSpecialtyAr": "النسائية والغدد الصماء"
+    },
+    {
+      "diseaseId": "d029",
+      "recommendedSpecialtyAr": "النسائية والتوليد"
+    },
+    {
+      "diseaseId": "d030",
+      "recommendedSpecialtyAr": "النسائية والغدد الصماء"
+    },
+    {
+      "diseaseId": "d031",
+      "recommendedSpecialtyAr": "النسائية والتوليد"
+    },
+    {
+      "diseaseId": "d032",
+      "recommendedSpecialtyAr": "النسائية"
+    },
+    {
+      "diseaseId": "d033",
+      "recommendedSpecialtyAr": "الجراحة العامة"
+    },
+    {
+      "diseaseId": "d034",
+      "recommendedSpecialtyAr": "الجراحة العامة"
+    },
+    {
+      "diseaseId": "d035",
+      "recommendedSpecialtyAr": "النسائية"
+    },
+    {
+      "diseaseId": "d036",
+      "recommendedSpecialtyAr": "جراحة الثدي والنسائية"
+    },
+    {
+      "diseaseId": "d037",
+      "recommendedSpecialtyAr": "الطب النفسي والغدد الصماء"
+    },
+    {
+      "diseaseId": "d038",
+      "recommendedSpecialtyAr": "طب الأطفال"
+    },
+    {
+      "diseaseId": "d039",
+      "recommendedSpecialtyAr": "طب الأطفال"
+    },
+    {
+      "diseaseId": "d040",
+      "recommendedSpecialtyAr": "أمراض الصدر والنوم"
+    },
+    {
+      "diseaseId": "d041",
+      "recommendedSpecialtyAr": "طب الأسنان والأعصاب"
+    },
+    {
+      "diseaseId": "d042",
+      "recommendedSpecialtyAr": "طب الأسنان"
+    },
+    {
+      "diseaseId": "d043",
+      "recommendedSpecialtyAr": "الأنف والأذن والحنجرة"
+    },
+    {
+      "diseaseId": "d044",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d045",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d046",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d047",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d048",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d049",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d050",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d051",
+      "recommendedSpecialtyAr": "أمراض القلب"
+    },
+    {
+      "diseaseId": "d052",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d053",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d054",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d055",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d056",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d057",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d058",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d059",
+      "recommendedSpecialtyAr": "الغدد الصماء والسكري"
+    },
+    {
+      "diseaseId": "d060",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d061",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d062",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d063",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d064",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d065",
+      "recommendedSpecialtyAr": "أمراض الكلى والمسالك البولية"
+    },
+    {
+      "diseaseId": "d066",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d067",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي والكبد"
+    },
+    {
+      "diseaseId": "d068",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي والكبد"
+    },
+    {
+      "diseaseId": "d069",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي والكبد"
+    },
+    {
+      "diseaseId": "d070",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d071",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d072",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d073",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d074",
+      "recommendedSpecialtyAr": "أمراض الجهاز الهضمي"
+    },
+    {
+      "diseaseId": "d075",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d076",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d077",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d078",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d079",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d080",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d081",
+      "recommendedSpecialtyAr": "الأعصاب"
+    },
+    {
+      "diseaseId": "d082",
+      "recommendedSpecialtyAr": "أمراض الصدر والتنفس"
+    },
+    {
+      "diseaseId": "d083",
+      "recommendedSpecialtyAr": "أمراض الصدر والتنفس"
+    },
+    {
+      "diseaseId": "d084",
+      "recommendedSpecialtyAr": "أمراض الصدر والتنفس"
+    },
+    {
+      "diseaseId": "d085",
+      "recommendedSpecialtyAr": "أمراض الصدر والتنفس"
+    },
+    {
+      "diseaseId": "d086",
+      "recommendedSpecialtyAr": "الجلدية"
+    },
+    {
+      "diseaseId": "d087",
+      "recommendedSpecialtyAr": "الجلدية"
+    },
+    {
+      "diseaseId": "d088",
+      "recommendedSpecialtyAr": "الجلدية"
+    },
+    {
+      "diseaseId": "d089",
+      "recommendedSpecialtyAr": "الجلدية"
+    },
+    {
+      "diseaseId": "d090",
+      "recommendedSpecialtyAr": "الجلدية"
+    },
+    {
+      "diseaseId": "d091",
+      "recommendedSpecialtyAr": "الجلدية"
+    },
+    {
+      "diseaseId": "d092",
+      "recommendedSpecialtyAr": "الروماتيزم والمناعة"
+    },
+    {
+      "diseaseId": "d093",
+      "recommendedSpecialtyAr": "الروماتيزم والمناعة"
+    },
+    {
+      "diseaseId": "d094",
+      "recommendedSpecialtyAr": "الروماتيزم والمناعة"
+    },
+    {
+      "diseaseId": "d095",
+      "recommendedSpecialtyAr": "الروماتيزم والمناعة"
+    },
+    {
+      "diseaseId": "d096",
+      "recommendedSpecialtyAr": "الروماتيزم والمناعة"
+    },
+    {
+      "diseaseId": "d097",
+      "recommendedSpecialtyAr": "الأمراض المعدية"
+    },
+    {
+      "diseaseId": "d098",
+      "recommendedSpecialtyAr": "الأمراض المعدية"
+    },
+    {
+      "diseaseId": "d099",
+      "recommendedSpecialtyAr": "الأمراض المعدية"
+    },
+    {
+      "diseaseId": "d100",
+      "recommendedSpecialtyAr": "الأمراض المعدية"
+    },
+    {
+      "diseaseId": "d101",
+      "recommendedSpecialtyAr": "الأمراض المعدية"
+    },
+    {
+      "diseaseId": "d102",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d103",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d104",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d105",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d107",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d108",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d109",
+      "recommendedSpecialtyAr": "الأورام"
+    },
+    {
+      "diseaseId": "d110",
+      "recommendedSpecialtyAr": "الأورام"
+    }
+  ],
+  "diseaseSeverityRules": [
+    {
+      "diseaseId": "d001",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d002",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d003",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d004",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d005",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d006",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d007",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d021",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d022",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d023",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d024",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d025",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d026",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d027",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d028",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d029",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d030",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d031",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d032",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d033",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d034",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d035",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d036",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d037",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d038",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d039",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d040",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d041",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d042",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d043",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d044",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d045",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d046",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d047",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d048",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d049",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d050",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d051",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d052",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d053",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d054",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d055",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d056",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d057",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d058",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d059",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d060",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d061",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d062",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d063",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d064",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d065",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d066",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d067",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d068",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d069",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d070",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d071",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d072",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d073",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d074",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d075",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d076",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d077",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d078",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d079",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d080",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d081",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d082",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d083",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d084",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d085",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d086",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d087",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d088",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d089",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d090",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d091",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d092",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d093",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d094",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d095",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d096",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d097",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d098",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d099",
+      "severityLevel": "requires_routine_review",
+      "messageAr": "يُفضَّل مراجعة طبيب في وقت قريب للتقييم والمتابعة"
+    },
+    {
+      "diseaseId": "d100",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d101",
+      "severityLevel": "emergency",
+      "messageAr": "طوارئ — يستدعي تدخلاً طبياً فورياً"
+    },
+    {
+      "diseaseId": "d102",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d103",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d104",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d105",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d107",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d108",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d109",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    },
+    {
+      "diseaseId": "d110",
+      "severityLevel": "requires_urgent_evaluation",
+      "messageAr": "يستدعي تقييماً طبياً عاجلاً نسبياً لاستبعاد أو تأكيد التشخيص مبكراً"
+    }
+  ],
+  "diseaseAgeGroupLinks": [
+    {
+      "diseaseId": "d001",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d002",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d003",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d004",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d005",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d006",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d007",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d021",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d022",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d023",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d024",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d025",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d026",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d027",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d028",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d029",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d030",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d031",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d032",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d033",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d034",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d035",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d036",
+      "relevantAgeGroups": [
+        "adolescent",
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d037",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d038",
+      "relevantAgeGroups": [
+        "infant",
+        "child"
+      ]
+    },
+    {
+      "diseaseId": "d039",
+      "relevantAgeGroups": [
+        "infant",
+        "child"
+      ]
+    },
+    {
+      "diseaseId": "d040",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d041",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d042",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d043",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d044",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d045",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d046",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d047",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d048",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d049",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d050",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d051",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d052",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d053",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d054",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d055",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d056",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d057",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d058",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d059",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d060",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d061",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d062",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d063",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d064",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d065",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d066",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d067",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d068",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d069",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d070",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d071",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d072",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d073",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d074",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d075",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d076",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d077",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d078",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d079",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d080",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d081",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d082",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d083",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d084",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d085",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d086",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d087",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d088",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d089",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d090",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d091",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d092",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d093",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d094",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d095",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d096",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d097",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d098",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d099",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d100",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d101",
+      "relevantAgeGroups": [
+        "adult"
+      ]
+    },
+    {
+      "diseaseId": "d102",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d103",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d104",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d105",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d107",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d108",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d109",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    },
+    {
+      "diseaseId": "d110",
+      "relevantAgeGroups": [
+        "adult",
+        "elderly"
+      ]
+    }
+  ],
+  "diseasePreventionLinks": [
+    {
+      "diseaseId": "d001",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d002",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d003",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "تجنب التعرض للملوثات المهنية",
+        "أخذ لقاحات الإنفلونزا والرئوية"
+      ]
+    },
+    {
+      "diseaseId": "d004",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d006",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d007",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d025",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d026",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d044",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d045",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d046",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d047",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d048",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d049",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d050",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d051",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "ممارسة نشاط بدني منتظم",
+        "ضبط ضغط الدم والكوليسترول دورياً"
+      ]
+    },
+    {
+      "diseaseId": "d052",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d053",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d054",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d055",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d056",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d057",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d058",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d059",
+      "preventionTipsAr": [
+        "الحفاظ على وزن صحي",
+        "نظام غذائي متوازن منخفض السكريات المكررة",
+        "متابعة دورية لفحوصات الغدد"
+      ]
+    },
+    {
+      "diseaseId": "d060",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d061",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d062",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d063",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d064",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d065",
+      "preventionTipsAr": [
+        "شرب كمية كافية من الماء يومياً",
+        "ضبط ضغط الدم والسكري",
+        "تجنب الإفراط في مسكنات الألم"
+      ]
+    },
+    {
+      "diseaseId": "d066",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d067",
+      "preventionTipsAr": [
+        "أخذ لقاحات التهاب الكبد المتاحة",
+        "تجنب الإفراط في الكحول",
+        "الفحص الدوري لمن لديه عوامل خطر"
+      ]
+    },
+    {
+      "diseaseId": "d068",
+      "preventionTipsAr": [
+        "أخذ لقاحات التهاب الكبد المتاحة",
+        "تجنب الإفراط في الكحول",
+        "الفحص الدوري لمن لديه عوامل خطر"
+      ]
+    },
+    {
+      "diseaseId": "d069",
+      "preventionTipsAr": [
+        "أخذ لقاحات التهاب الكبد المتاحة",
+        "تجنب الإفراط في الكحول",
+        "الفحص الدوري لمن لديه عوامل خطر"
+      ]
+    },
+    {
+      "diseaseId": "d070",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d071",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d072",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d073",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d074",
+      "preventionTipsAr": [
+        "نظام غذائي غني بالألياف",
+        "تجنب التدخين والكحول",
+        "إدارة التوتر النفسي"
+      ]
+    },
+    {
+      "diseaseId": "d075",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d076",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d077",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d078",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d079",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d080",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d081",
+      "preventionTipsAr": [
+        "ضبط ضغط الدم والسكري لتقليل مخاطر الأوعية الدماغية",
+        "النشاط الذهني والبدني المنتظم"
+      ]
+    },
+    {
+      "diseaseId": "d082",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "تجنب التعرض للملوثات المهنية",
+        "أخذ لقاحات الإنفلونزا والرئوية"
+      ]
+    },
+    {
+      "diseaseId": "d083",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "تجنب التعرض للملوثات المهنية",
+        "أخذ لقاحات الإنفلونزا والرئوية"
+      ]
+    },
+    {
+      "diseaseId": "d084",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "تجنب التعرض للملوثات المهنية",
+        "أخذ لقاحات الإنفلونزا والرئوية"
+      ]
+    },
+    {
+      "diseaseId": "d085",
+      "preventionTipsAr": [
+        "الإقلاع عن التدخين",
+        "تجنب التعرض للملوثات المهنية",
+        "أخذ لقاحات الإنفلونزا والرئوية"
+      ]
+    },
+    {
+      "diseaseId": "d086",
+      "preventionTipsAr": [
+        "الحفاظ على ترطيب الجلد",
+        "تجنب المهيّجات المعروفة",
+        "الحماية من التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d087",
+      "preventionTipsAr": [
+        "الحفاظ على ترطيب الجلد",
+        "تجنب المهيّجات المعروفة",
+        "الحماية من التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d088",
+      "preventionTipsAr": [
+        "الحفاظ على ترطيب الجلد",
+        "تجنب المهيّجات المعروفة",
+        "الحماية من التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d089",
+      "preventionTipsAr": [
+        "الحفاظ على ترطيب الجلد",
+        "تجنب المهيّجات المعروفة",
+        "الحماية من التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d090",
+      "preventionTipsAr": [
+        "الحفاظ على ترطيب الجلد",
+        "تجنب المهيّجات المعروفة",
+        "الحماية من التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d091",
+      "preventionTipsAr": [
+        "الحفاظ على ترطيب الجلد",
+        "تجنب المهيّجات المعروفة",
+        "الحماية من التعرض الشمسي المفرط"
+      ]
+    },
+    {
+      "diseaseId": "d092",
+      "preventionTipsAr": [
+        "المتابعة الدورية مع أخصائي الروماتيزم",
+        "تجنب التدخين",
+        "النشاط البدني المعتدل المناسب"
+      ]
+    },
+    {
+      "diseaseId": "d093",
+      "preventionTipsAr": [
+        "المتابعة الدورية مع أخصائي الروماتيزم",
+        "تجنب التدخين",
+        "النشاط البدني المعتدل المناسب"
+      ]
+    },
+    {
+      "diseaseId": "d094",
+      "preventionTipsAr": [
+        "المتابعة الدورية مع أخصائي الروماتيزم",
+        "تجنب التدخين",
+        "النشاط البدني المعتدل المناسب"
+      ]
+    },
+    {
+      "diseaseId": "d095",
+      "preventionTipsAr": [
+        "المتابعة الدورية مع أخصائي الروماتيزم",
+        "تجنب التدخين",
+        "النشاط البدني المعتدل المناسب"
+      ]
+    },
+    {
+      "diseaseId": "d096",
+      "preventionTipsAr": [
+        "المتابعة الدورية مع أخصائي الروماتيزم",
+        "تجنب التدخين",
+        "النشاط البدني المعتدل المناسب"
+      ]
+    },
+    {
+      "diseaseId": "d097",
+      "preventionTipsAr": [
+        "أخذ اللقاحات الموصى بها",
+        "غسل اليدين المتكرر",
+        "تجنب الاتصال المباشر مع المصابين النشطين"
+      ]
+    },
+    {
+      "diseaseId": "d098",
+      "preventionTipsAr": [
+        "أخذ اللقاحات الموصى بها",
+        "غسل اليدين المتكرر",
+        "تجنب الاتصال المباشر مع المصابين النشطين"
+      ]
+    },
+    {
+      "diseaseId": "d099",
+      "preventionTipsAr": [
+        "أخذ اللقاحات الموصى بها",
+        "غسل اليدين المتكرر",
+        "تجنب الاتصال المباشر مع المصابين النشطين"
+      ]
+    },
+    {
+      "diseaseId": "d100",
+      "preventionTipsAr": [
+        "أخذ اللقاحات الموصى بها",
+        "غسل اليدين المتكرر",
+        "تجنب الاتصال المباشر مع المصابين النشطين"
+      ]
+    },
+    {
+      "diseaseId": "d101",
+      "preventionTipsAr": [
+        "أخذ اللقاحات الموصى بها",
+        "غسل اليدين المتكرر",
+        "تجنب الاتصال المباشر مع المصابين النشطين"
+      ]
+    },
+    {
+      "diseaseId": "d102",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d103",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d104",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d105",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d107",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d108",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d109",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    },
+    {
+      "diseaseId": "d110",
+      "preventionTipsAr": [
+        "الفحص الدوري المبكر حسب الفئة العمرية والعوامل الوراثية",
+        "الإقلاع عن التدخين",
+        "نظام غذائي صحي متوازن"
+      ]
+    }
+  ]
+}

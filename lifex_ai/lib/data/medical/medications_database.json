@@ -1,0 +1,153 @@
+{
+  "_meta": {
+    "fileName": "medications_database.json",
+    "path": "lib/data/medical/medications_database.json",
+    "description": "قاعدة بيانات مرجعية عامة عن الأدوية الشائعة — للتوعية فقط، وليست بديلاً عن نشرة الدواء أو وصفة الطبيب/الصيدلاني",
+    "disclaimer_ar": "لا يقدّم Lifex-AI جرعات علاجية أو توصيات دوائية شخصية. أي معلومة هنا عامة ومرجعية فقط. يجب دائماً اتباع تعليمات الطبيب أو الصيدلاني المرخّص ونشرة الدواء الرسمية.",
+    "disclaimer_en": "Lifex-AI does not provide personalized dosing or treatment recommendations. Always follow your licensed physician or pharmacist and the official drug leaflet.",
+    "schemaVersion": "2.0.0",
+    "lastUpdated": "2026-07-11"
+  },
+  "medications": [
+    {
+      "id": "m001",
+      "nameAr": "باراسيتامول",
+      "nameEn": "Paracetamol (Acetaminophen)",
+      "category": "مسكن وخافض حرارة",
+      "commonUsesAr": [
+        "تخفيف الألم الخفيف إلى المتوسط",
+        "خفض الحرارة"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": false,
+      "generalNoteAr": "يُستخدم ضمن الجرعة الموصى بها على النشرة؛ الجرعات الزائدة تضر الكبد بشدة."
+    },
+    {
+      "id": "m002",
+      "nameAr": "إيبوبروفين",
+      "nameEn": "Ibuprofen",
+      "category": "مضاد التهاب غير ستيرويدي",
+      "commonUsesAr": [
+        "تخفيف الألم",
+        "خفض الالتهاب",
+        "خفض الحرارة"
+      ],
+      "knownInteractionsWithIds": [
+        "m004"
+      ],
+      "requiresPrescription": false,
+      "generalNoteAr": "يُستخدم بحذر لدى مرضى القرحة الهضمية أو أمراض الكلى، وبإشراف طبي في هذه الحالات."
+    },
+    {
+      "id": "m003",
+      "nameAr": "أموكسيسيلين",
+      "nameEn": "Amoxicillin",
+      "category": "مضاد حيوي",
+      "commonUsesAr": [
+        "علاج بعض أنواع العدوى البكتيرية"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "لا يُستخدم إلا بوصفة طبية، ويُكمَل كورس العلاج كاملاً حتى مع تحسن الأعراض."
+    },
+    {
+      "id": "m004",
+      "nameAr": "وارفارين",
+      "nameEn": "Warfarin",
+      "category": "مضاد تخثر",
+      "commonUsesAr": [
+        "الوقاية من الجلطات الدموية"
+      ],
+      "knownInteractionsWithIds": [
+        "m002"
+      ],
+      "requiresPrescription": true,
+      "generalNoteAr": "يتطلب متابعة دورية صارمة لفحوصات التخثر (INR) بإشراف طبي مباشر."
+    },
+    {
+      "id": "m005",
+      "nameAr": "ميتفورمين",
+      "nameEn": "Metformin",
+      "category": "خافض سكر الدم",
+      "commonUsesAr": [
+        "ضبط سكر الدم في داء السكري من النوع الثاني"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "لا تُعدَّل الجرعة إلا بتوجيه الطبيب المعالج."
+    },
+    {
+      "id": "m006",
+      "nameAr": "ليفوثيروكسين",
+      "nameEn": "Levothyroxine",
+      "category": "علاج قصور الغدة الدرقية",
+      "commonUsesAr": [
+        "تعويض هرمون الغدة الدرقية الناقص"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "يُؤخذ على معدة فارغة صباحاً حسب توجيه الطبيب، ويتطلب متابعة دورية لمستوى TSH."
+    },
+    {
+      "id": "m007",
+      "nameAr": "أوميبرازول",
+      "nameEn": "Omeprazole",
+      "category": "مثبط مضخة البروتون",
+      "commonUsesAr": [
+        "علاج الحموضة والارتجاع المريئي وقرحة المعدة"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": false,
+      "generalNoteAr": "الاستخدام طويل الأمد يجب أن يكون بإشراف طبي لمراقبة آثاره الجانبية المحتملة."
+    },
+    {
+      "id": "m008",
+      "nameAr": "بريدنيزون",
+      "nameEn": "Prednisone",
+      "category": "كورتيكوستيرويد مناعي",
+      "commonUsesAr": [
+        "تثبيط الالتهاب في الأمراض المناعية الذاتية"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "لا يُوقَف فجأة أبداً دون تدرّج بإشراف الطبيب لتفادي مضاعفات خطيرة."
+    },
+    {
+      "id": "m009",
+      "nameAr": "ميتوبرولول",
+      "nameEn": "Metoprolol",
+      "category": "حاصر بيتا",
+      "commonUsesAr": [
+        "ضبط معدل ضربات القلب وضغط الدم",
+        "دعم علاج قصور القلب"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "لا تُعدَّل الجرعة أو تُوقَف دون استشارة طبيب القلب."
+    },
+    {
+      "id": "m010",
+      "nameAr": "ليفودوبا",
+      "nameEn": "Levodopa",
+      "category": "علاج باركنسون",
+      "commonUsesAr": [
+        "تخفيف أعراض الرعشة والتيبس في مرض باركنسون"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "يتطلب جدولة جرعات دقيقة بإشراف طبيب أعصاب متخصص."
+    },
+    {
+      "id": "m011",
+      "nameAr": "إبينفرين (أدرينالين) للحقن الذاتي",
+      "nameEn": "Epinephrine Auto-Injector",
+      "category": "علاج طوارئ الحساسية المفرطة",
+      "commonUsesAr": [
+        "الإسعاف الفوري لحالات الحساسية المفرطة (Anaphylaxis)"
+      ],
+      "knownInteractionsWithIds": [],
+      "requiresPrescription": true,
+      "generalNoteAr": "يُستخدم فوراً عند الاشتباه بحساسية مفرطة، ويجب طلب الإسعاف فوراً بعد الاستخدام دائماً."
+    }
+  ]
+}
